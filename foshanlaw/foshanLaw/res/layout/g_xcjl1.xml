@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top1"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" >
+
+        <TextView
+            android:id="@+id/top_text"
+            style="@style/yangshi_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="检查记录" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/next"
+        android:text="下一步"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/next"
+        android:layout_below="@+id/top"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip" >
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="检查内容："
+                    android:textColor="#000000" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/g_xcnr"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip" >
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="重点监控地区："
+                    android:textColor="#000000" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/g_zdjkdq"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip" >
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="协办人："
+                    android:textColor="#000000" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/g_xcry"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip" >
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:text="检查类型："
+                    android:textColor="#000000" >
+                </TextView>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/xuanze"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="选择" />
+
+                    <TextView
+                        android:id="@+id/g_xclx"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="10dip"
+                        android:layout_toLeftOf="@+id/xuanze"
+                        android:singleLine="true"
+                        android:textColor="#000000" >
+                    </TextView>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip" >
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="责改日期："
+                    android:textColor="#000000" >
+                </TextView>
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:singleLine="true"
+                    android:visibility="invisible" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <DatePicker
+                    android:id="@+id/g_zgqx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip" >
+
+                <TextView
+                    android:id="@+id/loginPortText"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="备注："
+                    android:textColor="#000000" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/g_bz"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:minLines="5" >
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

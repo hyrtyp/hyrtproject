@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main_table_layout"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+	android:layout_width="fill_parent"
+>
+	<RelativeLayout
+		android:id="@+id/main_choice_top"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/top1"
+	>
+		<TextView
+		    style="@style/yangshi_title"
+			android:text="GIS"
+			android:layout_centerInParent="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</RelativeLayout>
+	<LinearLayout
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		android:paddingTop="20dip"
+		android:paddingBottom="20dip"
+		android:orientation="vertical"
+		android:layout_below="@+id/main_choice_top"
+		android:layout_height="fill_parent"
+		android:weightSum="3"
+		android:layout_width="fill_parent"
+	>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_weight="1"
+			android:weightSum="3"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+		>
+			
+			<LinearLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+				<ImageView
+					android:id="@+id/icon_d"
+					android:layout_height="wrap_content"
+					android:background="@drawable/d_d"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="当前位置" />
+			</LinearLayout>
+			<LinearLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+				<ImageView
+					android:id="@+id/icon_b"
+					android:layout_height="wrap_content"
+					android:background="@drawable/d_b"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="规划路径" />
+			</LinearLayout>
+			<LinearLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+				<ImageView
+					android:id="@+id/icon_c"
+					android:layout_height="wrap_content"
+					android:background="@drawable/d_c"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="检查轨迹" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_weight="1"
+			android:weightSum="3"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+		>
+			<LinearLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+				<ImageView
+					android:id="@+id/icon_a"
+					android:layout_height="wrap_content"
+					android:background="@drawable/d_a"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="企业标注" />
+			</LinearLayout>
+			<LinearLayout 
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+				<ImageView
+					android:id="@+id/icon_e"
+					android:layout_height="wrap_content"
+					android:background="@drawable/xcqy"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="空间查询" />
+			</LinearLayout>
+			<LinearLayout android:visibility="invisible"
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+				<ImageView
+					android:id="@+id/icon_f"
+					android:layout_height="wrap_content"
+					android:background="@drawable/icon_f"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="统计分析" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:visibility="invisible"
+			android:orientation="horizontal"
+			android:layout_weight="1"
+			android:weightSum="3"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+		>
+			<LinearLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+				<ImageView
+					android:layout_height="wrap_content"
+					android:background="@drawable/icon_g"
+					android:layout_width="wrap_content"
+					android:id="@+id/icon_g" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="检查记录" />
+			</LinearLayout>
+			<LinearLayout android:visibility="invisible"
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+				<ImageView
+					android:id="@+id/icon_h"
+					android:layout_height="wrap_content"
+					android:background="@drawable/icon_h"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="网内呼叫" />
+			</LinearLayout>
+			<LinearLayout android:visibility="invisible"
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+				<ImageView
+					android:id="@+id/icon_i"
+					android:layout_height="wrap_content"
+					android:background="@drawable/icon_i"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="RFID查询" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

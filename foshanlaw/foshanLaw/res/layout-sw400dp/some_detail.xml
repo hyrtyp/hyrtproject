@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/rootlayout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#efffff"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<RelativeLayout
+			android:id="@+id/top"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/top1"
+			android:paddingLeft="15dip"
+			android:paddingRight="15dip"
+			android:layout_alignParentTop="true">
+
+			<TextView
+				android:layout_centerVertical="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="主体详细信息"
+				android:textSize="14.0sp"
+				android:textColor="#ffffff"
+				android:layout_centerInParent="true" />
+			<ImageView
+				android:id="@+id/list_back"
+				android:layout_centerVertical="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/back"
+				android:layout_alignParentRight="true" />
+		</RelativeLayout>
+		<ListView
+			android:id="@+id/some_listView"
+			android:cacheColorHint="@null"
+			android:divider="@drawable/line"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"/>
+	</LinearLayout>
+
+</LinearLayout>

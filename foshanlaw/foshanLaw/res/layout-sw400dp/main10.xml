@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <com.esri.android.map.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </com.esri.android.map.MapView>
+
+    <Button
+        android:id="@+id/EnvelopeQuery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignLeft="@+id/button1"
+        android:text="拉框查询" />
+
+    <Button
+        android:id="@+id/addlable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EnvelopeQuery"
+        android:layout_alignLeft="@+id/EnvelopeQuery"
+        android:text="添加标注" />
+
+    <Button
+        android:id="@+id/DrawLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addlable"
+        android:layout_alignLeft="@+id/addlable"
+        android:layout_alignRight="@+id/addlable"
+        android:text="检查轨迹" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="路径分析" />
+
+    <ZoomControls
+        android:id="@+id/zoomControls1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/LoadMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/SolvePathTouch"
+        android:layout_alignParentRight="true"
+        android:text="加载动态地图" />
+
+    <Button
+        android:id="@+id/Topology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DrawLine"
+        android:layout_alignParentLeft="true"
+        android:text="拓扑" />
+
+    <Button
+        android:id="@+id/callout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LoadMap"
+        android:layout_alignParentRight="true"
+        android:text="callout提示" />
+
+    <Button
+        android:id="@+id/SolvePathlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Topology"
+        android:layout_alignBottom="@+id/Topology"
+        android:layout_alignParentRight="true"
+        android:text="必经点路径分析" />
+
+    <Button
+        android:id="@+id/SolvePathTouch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:text="动态创建最短路径" />
+
+    <Button
+        android:id="@+id/canel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/SolvePathlist"
+        android:layout_alignParentRight="true"
+        android:text="清除" />
+
+    <Button
+        android:id="@+id/CenterAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/canel"
+        android:layout_alignParentLeft="true"
+        android:text="定位" />
+
+    <Button
+        android:id="@+id/LoadLocalMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CenterAt"
+        android:layout_alignParentLeft="true"
+        android:text="加载离线地图" />
+
+</RelativeLayout>

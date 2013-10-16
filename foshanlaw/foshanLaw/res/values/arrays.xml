@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="SQLiteDALClassName">
+        <item>SQLiteDALSetting</item>
+        <item>SQLiteDALChat</item>
+    </string-array>
+    <string-array name="stat_period">
+        <item>本周</item>
+        <item>本月</item>
+        <item>本季</item>
+        <item>本年</item>
+        <item>指定</item>
+    </string-array>
+    <string-array name="stat_style">
+        <item>用户</item>
+        <item>部门</item>
+    </string-array>
+    <string-array name="stat_style1">
+        <item>全部</item>
+        <item>综合股</item>
+        <item>安全生产监管股</item>
+        <item>企业登记股</item>
+        <item>专业市场监管股</item>
+    </string-array>
+    <string-array name="stat_style2">
+        <item>全部</item>
+        <item>定期检查</item>
+        <item>日常检查</item>
+        <item>专项检查</item>
+    </string-array>
+    <string-array name="inspect_type">
+        <item>日常检查</item>
+        <item>定期检查</item>
+    </string-array>
+    <string-array name="visa">
+        <item>工商银行</item>
+        <item>招商银行</item>
+        <item>中国银行</item>
+        <item>中信银行</item>
+        <item>北京银行</item>
+        <item>建设银行</item>
+    </string-array>
+    <string-array name="jiansuo">
+        <item>法律法规</item>
+        <item>办案工作指引</item>
+        <item>检查工作指引</item>
+    </string-array>
+    <string-array name="monitoringarea">
+        <item>重点街道</item>
+        <item>政府周边</item>
+        <item>学校周边</item>
+        <item>旅游区</item>
+        <item>其它重点地区</item>
+    </string-array>
+    <string-array name="xcsx">
+        <item>--请选择--</item>
+        <item>企业私营个体监管</item>
+        <item>市场监督管理</item>
+        <item>广告监督管理</item>
+        <item>商标监督管理</item>
+        <item>消费者权益保护</item>
+        <item>经济监察</item>
+        <item>合同监督管理</item>
+    </string-array>
+    <string-array name="clfs">
+        <item>--请选择--</item>
+        <item>口头提示</item>
+        <item>书式提示</item>
+        <item>书式告诫</item>
+        <item>建议约见</item>
+        <item>建议函告</item>
+        <item>建议转移</item>
+        <item>建议立案</item>
+        <item>责令改正</item>
+    </string-array>
+    <string-array name="wt_0">
+        <item>--请选择--</item>
+    </string-array>
+    <string-array name="wt_1">
+        <item>--请选择--</item>
+        <item>出资时间即将到期</item>
+        <item>行政许可即将到期</item>
+        <item>营业期限即将到期</item>
+        <item>代表机构登记证即将到期</item>
+        <item>未依法亮照经营</item>
+        <item>场所内存在无照经营</item>
+        <item>场所内存在擅迁住所主题</item>
+        <item>未悬挂营业执照</item>
+        <item>未按规定办理注销登记</item>
+        <item>未按规定办理变更登记</item>
+        <item>未按规定办理备案登记</item>
+        <item>外国公司擅设分支机构</item>
+        <item>擅自迁址</item>
+        <item>查无下落</item>
+        <item>未按期缴付出资</item>
+        <item>超范围经营前置许可项目</item>
+        <item>未登记冒用公司从事经营</item>
+        <item>伪造出租出借转让执照</item>
+        <item>未申报年检验照</item>
+        <item>6个月未开业</item>
+        <item>停业超6个月</item>
+        <item>代表机构擅自开展业务活动</item>
+        <item>代表机构私聘雇员</item>
+        <item>拒绝监督检查</item>
+    </string-array>
+    <string-array name="wt_2">
+        <item>--请选择--</item>
+        <item>市场管理机构未公开其名称</item>
+        <item>未设立市场标志和场界牌</item>
+        <item>未设消保投诉机构及举报箱</item>
+        <item>市场内有地摊经营行为</item>
+        <item>市场工作人员未佩带证件</item>
+        <item>未公开投诉举报电话</item>
+        <item>未建立经营者档案</item>
+        <item>经营者存在缺尺少秤行为</item>
+        <item>经营者未落实索证索票制度</item>
+        <item>未设立公平秤</item>
+        <item>未统一胸卡及物价标签</item>
+        <item>开办单位在市场内自营</item>
+        <item>在集市上测字或算命</item>
+        <item>展销会使用中国全国字样</item>
+        <item>不文明经营或在摊位外经营</item>
+        <item>市场环境脏乱差</item>
+        <item>未配备相适应停车场</item>
+        <item>未履行义务致使秩序混乱</item>
+        <item>允许无照人员进入市场经营</item>
+        <item>变相扩大市场场界</item>
+        <item>未公布主体和商品退出情况</item>
+        <item>经营者未建立进货验收制度</item>
+        <item>销售或使用不合格塑料袋</item>
+    </string-array>
+    <string-array name="wt_3">
+        <item>--请选择--</item>
+        <item>设计或制作广告涉嫌违法</item>
+        <item>代理或发布广告涉嫌违法</item>
+        <item>违法广告严重或屡禁不止</item>
+        <item>未将收费标准和办法公示</item>
+        <item>单独使用外国语言文字</item>
+        <item>单独使用汉语拼音</item>
+        <item>成语使用不符合规定</item>
+        <item>擅自发布户外广告</item>
+        <item>使用国旗国徽国歌</item>
+        <item>使用机关及工作人员名义</item>
+        <item>含有歧视内容</item>
+        <item>妨碍环境和自然资源保护</item>
+        <item> 贬低其他商品或服务</item>
+        <item>在公共场所设置烟草广告</item>
+        <item>利用广告虚假宣传</item>
+        <item>含有虚假和误导消费者内容</item>
+        <item>印刷品广告含有新闻信息</item>
+        <item>印刷品广告含有报道</item>
+        <item>房地产广告含封建迷信内容</item>
+        <item>广告文字含有不良文化</item>
+    </string-array>
+    <string-array name="wt_4">
+        <item>--请选择--</item>
+        <item>注册商标即将到期</item>
+        <item>自行转让注册商标</item>
+        <item>冒充注册商标</item>
+        <item>自行改变注册商标</item>
+        <item>商标同国家名称相同或近似</item>
+        <item>商标同国旗国徽相同或近似</item>
+        <item>商标同军旗勋章相同或近似</item>
+        <item>商标同中央机关所在地名称</item>
+        <item>商标同中央机关建筑物名称</item>
+        <item>商标同中央机关建筑物图形</item>
+        <item>商标同政府间国际组织名称</item>
+        <item>商标同政府间国际组织旗帜</item>
+        <item>商标同政府间国际组织徽记</item>
+        <item>商标和官方标志相同</item>
+        <item>商标和官方印记相同</item>
+        <item>商标同"红十字"名称标志</item>
+        <item>商标同"红新月"名称标志</item>
+        <item>商标带有民族歧视</item>
+        <item>商标夸大宣传并带有欺骗</item>
+        <item>商标有害于道德风尚</item>
+        <item>公众知晓外国地名作为商标</item>
+        <item>擅改特殊标志文字或图形</item>
+        <item>用奥林匹克标志未标备案号</item>
+        <item>准许他人使用商标未备案</item>
+        <item>许可他人用特殊标志未签约</item>
+        <item>许可他人用特殊标志未备案</item>
+        <item>集体商标许可他人使用</item>
+    </string-array>
+    <string-array name="wt_5">
+        <item>--请选择--</item>
+        <item>产品质量管理制度未落实</item>
+        <item>未向消费者作说明警示</item>
+        <item>商品或服务存在严重缺陷</item>
+        <item>商品有缺陷未告知消费者</item>
+        <item>服务有缺陷未告知消费者</item>
+        <item>销售失效或变质产品</item>
+        <item>销售不符合强制性标准产品</item>
+    </string-array>
+    <string-array name="wt_6">
+        <item>--请选择--</item>
+        <item>直销未向消费者提供发票</item>
+        <item>直销未向消费者提供凭证</item>
+        <item>直销未按标明价格推销产品</item>
+        <item>擅自从事直销活动</item>
+        <item>未取得直销员证从事直销</item>
+        <item>有奖销售奖金额超过五千元</item>
+        <item>欺骗性有奖销售</item>
+        <item>经营者参与传销活动</item>
+        <item>销售封建迷信殡葬用品</item>
+    </string-array>
+    <string-array name="wt_7">
+        <item>--请选择--</item>
+        <item>经纪人备案即将到期</item>
+        <item>经纪人相关信息未明示</item>
+        <item>未使用示范文本</item>
+        <item>过期守信企业以其名义活动</item>
+        <item>拍卖企业不服从监督管理</item>
+        <item>经纪人未在规定时限内备案</item>
+        <item>利用虚假信息骗取中介费</item>
+    </string-array>
+
+    <!-- 网格检查/无证无照/无证无照登记-经营项目 -->
+    <string-array name="network_query_no_evidence_interlope_regist_manage_item">
+        <item>--请选择--</item>
+        <item>餐馆</item>
+        <item>小百货</item>
+        <item>食品制售</item>
+        <item>回访不合格</item>
+        <item>美容美发</item>
+        <item>录像放映厅</item>
+        <item>其他</item>
+    </string-array>
+
+    <!-- 网格检查/无证无照/无证无照登记-无证类型 -->
+    <string-array name="network_query_no_evidence_interlope_regist_no_evidence_type">
+        <item>--请选择--</item>
+        <item>无证无照</item>
+        <item>无证有照</item>
+    </string-array>
+
+    <!-- 网格检查/无证无照/无证无照登记-处理结果 -->
+    <string-array name="network_query_no_evidence_interlope_regist_result">
+        <item>--请选择--</item>
+        <item>建议立案查处取缔</item>
+        <item>建议函告</item>
+        <item>责令停止经营</item>
+    </string-array>
+
+</resources>

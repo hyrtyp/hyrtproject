@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        style="@style/yangshi_title_parent"
+        >
+
+        <Button
+            android:id="@+id/top_button_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/top_button"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/top_button_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/top_button"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/top_text"
+            style="@style/yangshi_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="主体查询" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/top"
+        style="@style/query_scroll" >
+
+        <LinearLayout
+            style="@style/query_edit_parent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    style="@style/query_edit_title"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="注册号  ：" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/a_zch"
+                    style="@style/query_edit"
+                    android:layout_width="match_parent"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/query_edit_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    style="@style/query_edit_title"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="名称：" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/a_mc"
+                    style="@style/query_edit"
+                    android:layout_width="fill_parent"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/query_edit_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    style="@style/query_edit_title"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="法定代表人：" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/a_fddbr"
+                    style="@style/query_edit"
+                    android:layout_width="fill_parent"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/query_edit_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/loginPortText"
+                    style="@style/query_edit_title"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="地址：" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/a_dz"
+                    style="@style/query_edit"
+                    android:layout_width="fill_parent"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/query_edit_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/query_edit_title"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="注册资本：" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/zczb"
+                    style="@style/query_edit"
+                    android:layout_width="fill_parent"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/query_edit_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/query_edit_title"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="经营范围：" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/jyfw"
+                    style="@style/query_edit"
+                    android:layout_width="fill_parent"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/query_btn_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/a_kscx"
+                    style="@style/query_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="开始查询" />
+
+                <Button
+                    android:id="@+id/a_qksr"
+                    style="@style/query_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="清空输入" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

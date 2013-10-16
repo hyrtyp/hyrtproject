@@ -1,0 +1,42 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/parent_ll"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#eFFFFF"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:id="@+id/top"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/top1"
+        android:paddingLeft="15dip"
+		android:paddingRight="15dip"
+		android:layout_alignParentTop="true">
+		
+		<TextView
+			android:id="@+id/top_text"
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="信息查询"
+			android:textSize="14.0sp"
+			android:textColor="#FFFFFF"
+			android:layout_centerInParent="true" />
+		<ImageView
+			android:id="@+id/list_back"
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/back"
+			android:layout_alignParentRight="true" />
+
+	</RelativeLayout>
+   <ListView android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/listview"
+		android:divider="@drawable/line"
+		android:cacheColorHint="@null"></ListView>
+</LinearLayout>

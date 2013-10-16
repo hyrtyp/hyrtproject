@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        style="@style/yangshi_title_parent"
+        android:layout_alignParentTop="true"
+         >
+
+        <TextView
+            style="@style/yangshi_title"
+            android:id="@+id/top_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="无证无照录入"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/next"
+        android:layout_below="@+id/top"
+        style="@style/query_scroll" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                style="@style/query_edit_parent">
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="记录标题："
+                    style="@style/query_edit_title" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/d_jlbt"
+                    android:layout_width="fill_parent"
+                    style="@style/query_edit"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                style="@style/query_edit_parent">
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="经营者："
+                    style="@style/query_edit_title" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/d_jyz"
+                    android:layout_width="fill_parent"
+                    style="@style/query_edit"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                style="@style/query_edit_parent">
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="身份证号："
+                    style="@style/query_edit_title" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/d_sfzh"
+                    android:layout_width="fill_parent"
+                    style="@style/query_edit"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                style="@style/query_edit_parent">
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="电话："
+                    style="@style/query_edit_title">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/d_dh"
+                    android:layout_width="fill_parent"
+                    style="@style/query_edit"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                style="@style/query_edit_parent">
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="详细地址："
+                    style="@style/query_edit_title" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/d_xxdz"
+                    android:layout_width="fill_parent"
+                    style="@style/query_edit"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+               style="@style/query_edit_parent">
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="无证无照类型："
+                    style="@style/query_edit_title" >
+                </TextView>
+
+                <Spinner android:id="@+id/d_wzwzlx"
+                    android:entries="@array/network_query_no_evidence_interlope_regist_no_evidence_type"
+                    android:layout_width="fill_parent"
+                    style="@style/query_edit">
+                </Spinner>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                style="@style/query_edit_parent">
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="经营项目："
+                    style="@style/query_edit_title">
+                </TextView>
+
+                <Spinner android:id="@+id/d_jyxm"
+                    android:entries="@array/network_query_no_evidence_interlope_regist_manage_item"
+                    android:layout_width="fill_parent"
+                    style="@style/query_edit">
+                </Spinner>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                style="@style/query_edit_parent">
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="处理结果："
+                   style="@style/query_edit_title" >
+                </TextView>
+
+                <Spinner android:id="@+id/d_cljg"
+                    android:entries="@array/network_query_no_evidence_interlope_regist_result"
+                    android:layout_width="fill_parent"
+                    style="@style/query_edit">
+                </Spinner>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                style="@style/query_btn_parent">
+                <Button
+                    android:id="@+id/d_in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   style="@style/query_btn"
+                    android:text="录入"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

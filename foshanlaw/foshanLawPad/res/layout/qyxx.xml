@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+>
+	<RelativeLayout
+		android:paddingLeft="15dip"
+		android:paddingRight="15dip"
+		android:id="@+id/main_choice_top"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/top1"
+	>
+
+		<TextView
+			android:text="企业信息"
+			android:id="@+id/yl_list_tt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:textColor="#eef6f9"
+			android:textSize="14sp" />
+		<ImageView
+			android:id="@+id/yl_list_back"
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/back"
+			android:layout_alignParentRight="true" />
+	</RelativeLayout>
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/main_choice_top"
+		android:scrollbars="vertical"
+	>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+		>
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/loginServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="注册号："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="4406061000287"
+					android:id="@+id/exe_law_case_search_code_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/loginPortText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="企业名称："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="汕头市金平区金亿货运车队乐从营业部"
+					android:id="@+id/exe_law_case_search_name_editText2"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="字号："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="-"
+					android:id="@+id/exe_law_case_search_location_editText1"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="法定代表人："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="刘伯义"
+					android:id="@+id/exe_law_case_search_location_editText3"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="地址："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="佛山市顺德区乐从镇北围工业园龙威家具材料城A9座首层26、27号"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="邮政编码："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="-"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="企业类型："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="内资非法人企业、非公司私营企业及内资非公司企业分支机构"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="企业经济性质："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="集体所有制"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="管辖单位："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="佛山市顺德区市场安全监管局乐从分局"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="登记机关："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="佛山市顺德区市场安全监管局"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="联系电话："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="-"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="企业状态："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="登记成立"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="核准日期："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="2006-05-11"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="注册资本（万元）："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="3.0000"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="经营范围："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="代隶属企业联系业务。"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="成立日期："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="2006-05-11"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="经营期限至："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="-"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="从业人数："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="5"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="行业门类："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="F"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="行业代码："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="5230"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="档案号："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="-"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="属地管理机关："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="佛山市顺德区市场安全监管局乐从分局"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+			
+			<LinearLayout
+				android:layout_marginTop="10dip"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+			>
+				<TextView
+					android:id="@+id/businessServerText"
+					android:layout_width="150dip"
+					android:layout_height="wrap_content"
+					android:text="投资者情况："
+					style="@style/yangshi_1" />
+				<TextView
+					android:text="-"
+					android:id="@+id/exe_law_case_search_location_editText"
+					android:layout_width="170dip"
+					android:layout_height="wrap_content"
+					style="@style/yangshi_1" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

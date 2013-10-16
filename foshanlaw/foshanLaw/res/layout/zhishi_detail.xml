@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout
+		android:id="@+id/top"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/top1"
+		android:paddingLeft="15dip"
+		android:paddingRight="15dip"
+		android:layout_alignParentTop="true">
+		<ImageView
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/shezhi"
+			android:layout_alignParentLeft="true"
+			android:visibility="invisible"
+			android:id="@+id/zhishi" />
+		<TextView
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="知识详情"
+			android:textSize="14sp"
+			android:textColor="#eef6f9"
+			android:layout_centerInParent="true" />
+		<ImageView
+			android:id="@+id/zhishi_detail_backs"
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/back"
+			android:layout_alignParentRight="true" />
+	</RelativeLayout>
+	<RelativeLayout
+		android:id="@+id/zhisih_detail_rl2"
+		android:layout_width="fill_parent"
+		android:background="#efffff"
+		android:layout_below="@id/top"
+		android:layout_height="fill_parent">
+	<EditText
+		android:id="@+id/zhishi_detail_et"
+		android:editable="false"
+		android:background="@null"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	</RelativeLayout>
+
+</RelativeLayout>

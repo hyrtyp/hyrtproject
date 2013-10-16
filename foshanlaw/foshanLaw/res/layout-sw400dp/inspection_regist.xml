@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#efffff"
+>
+
+	<RelativeLayout
+		android:id="@+id/main_choice_top"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/top1"
+	>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:text="检查记录"
+			android:textColor="#eef6f9"
+			android:textSize="20sp" />
+
+
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@drawable/back"
+			android:layout_alignParentRight="true"
+			android:id="@+id/fanhui"
+			android:paddingRight="20dip"
+			android:layout_centerVertical="true" />
+
+	</RelativeLayout>
+
+	<TableLayout
+		android:id="@+id/tl_stat"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20.0dip"
+		android:gravity="center"
+		android:layout_below="@+id/main_choice_top"
+		android:orientation="vertical"
+	>
+
+		<TableRow android:gravity="center">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/tv_company_code"
+				android:textColor="@color/black"
+				android:textSize="14.0sp" />
+
+			<EditText
+				android:id="@+id/et_account_code"
+				android:layout_width="200.0dip"
+				android:layout_height="wrap_content" />
+		</TableRow>
+
+		<TableRow android:gravity="center">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/tv_company_name"
+				android:textColor="@color/black"
+				android:textSize="14.0sp" />
+
+			<EditText
+				android:id="@+id/et_account_name"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+		</TableRow>
+
+		<TableRow android:gravity="center">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/tv_company_person"
+				android:textColor="@color/black"
+				android:textSize="14.0sp" />
+
+			<EditText
+				android:id="@+id/et_account_person"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+		</TableRow>
+
+		<TableRow android:gravity="center">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/tv_company_phone"
+				android:textColor="@color/black"
+				android:textSize="14.0sp" />
+
+			<EditText
+				android:id="@+id/et_account_mobile"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+		</TableRow>
+
+		<TableRow android:gravity="center">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/tv_company_card"
+				android:textColor="@color/black"
+				android:textSize="14.0sp" />
+
+			<EditText
+				android:id="@+id/et_account_idcard"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+		</TableRow>
+
+		<TableRow android:gravity="center">
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="经度纬度："
+				android:id="@+id/lat_lon_bt"
+				android:textColor="@color/black"
+				android:textSize="14.0sp" />
+
+			<EditText
+				android:id="@+id/lat_lon_et"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:editable="false" />
+		</TableRow>
+
+		<TableRow android:gravity="center">
+		</TableRow>
+	</TableLayout>
+
+	<LinearLayout
+		android:layout_marginTop="10dip"
+		android:weightSum="3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tl_stat"
+	>
+
+		<Button
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:background="@drawable/btn_bg"
+			android:layout_weight="1"
+			android:id="@+id/tm_bt"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="条码" />
+
+		<Button
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:background="@drawable/btn_bg"
+			android:layout_weight="1"
+			android:id="@+id/pic_bt"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="照相" />
+
+		<Button
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:background="@drawable/btn_bg"
+			android:layout_weight="1"
+			android:id="@+id/jl_bt"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="记录" />
+	</LinearLayout>
+
+</RelativeLayout>

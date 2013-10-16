@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+>
+	<RelativeLayout
+		android:paddingLeft="15dip"
+		android:paddingRight="15dip"
+		android:id="@+id/main_choice_top"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/top1"
+	>
+
+		<TextView
+			android:text="任务详细"
+			android:id="@+id/yl_list_tt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:textColor="#eef6f9"
+			android:textSize="14sp" />
+		<ImageView
+			android:id="@+id/yl_list_back"
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/back"
+			android:layout_alignParentRight="true" />
+	</RelativeLayout>
+	<LinearLayout
+		android:layout_marginTop="10dip"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+	>
+		<TextView
+			android:id="@+id/loginServerText"
+			android:layout_width="150dip"
+			android:layout_height="wrap_content"
+			android:text="任务编号："
+			style="@style/yangshi_1" />
+		<TextView
+			android:text="201212020001"
+			android:id="@+id/exe_law_case_search_code_editText"
+			android:layout_width="170dip"
+			android:layout_height="wrap_content"
+			style="@style/yangshi_1" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_marginTop="10dip"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+	>
+		<TextView
+			android:id="@+id/loginPortText"
+			android:layout_width="150dip"
+			android:layout_height="wrap_content"
+			android:text="任务名称："
+			style="@style/yangshi_1" />
+		<TextView
+			android:text="高平水污染"
+			android:id="@+id/exe_law_case_search_name_editText2"
+			android:layout_width="170dip"
+			android:layout_height="wrap_content"
+			style="@style/yangshi_1" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_marginTop="10dip"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+	>
+		<TextView
+			android:id="@+id/businessServerText"
+			android:layout_width="150dip"
+			android:layout_height="wrap_content"
+			android:text="内容："
+			style="@style/yangshi_1" />
+		<TextView
+			android:text="广东省佛山市"
+			android:id="@+id/exe_law_case_search_location_editText1"
+			android:layout_width="170dip"
+			android:layout_height="wrap_content"
+			style="@style/yangshi_1" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_marginTop="10dip"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+	>
+		<TextView
+			android:id="@+id/businessServerText"
+			android:layout_width="150dip"
+			android:layout_height="wrap_content"
+			android:text="单位/个人名称："
+			style="@style/yangshi_1" />
+		<TextView
+			android:text="高平织染水处理有限公司"
+			android:id="@+id/exe_law_case_search_location_editText3"
+			android:layout_width="170dip"
+			android:layout_height="wrap_content"
+			style="@style/yangshi_1" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_marginTop="10dip"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+	>
+		<TextView
+			android:id="@+id/businessServerText"
+			android:layout_width="150dip"
+			android:layout_height="wrap_content"
+			android:text="级别："
+			style="@style/yangshi_1" />
+		<TextView
+			android:text="紧急"
+			android:id="@+id/exe_law_case_search_location_editText"
+			android:layout_width="170dip"
+			android:layout_height="wrap_content"
+			style="@style/yangshi_1" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_marginTop="10dip"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+	>
+		<TextView
+			android:id="@+id/businessServerText"
+			android:layout_width="150dip"
+			android:layout_height="wrap_content"
+			android:text="开始时间："
+			style="@style/yangshi_1" />
+		<TextView
+			android:text="2012-11-5"
+			android:id="@+id/exe_law_case_search_location_editText"
+			android:layout_width="170dip"
+			android:layout_height="wrap_content"
+			style="@style/yangshi_1" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_marginTop="10dip"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+	>
+		<TextView
+			android:id="@+id/businessServerText"
+			android:layout_width="150dip"
+			android:layout_height="wrap_content"
+			android:text="结束时间："
+			style="@style/yangshi_1" />
+		<TextView
+			android:text="2012-11-8"
+			android:id="@+id/exe_law_case_search_location_editText"
+			android:layout_width="170dip"
+			android:layout_height="wrap_content"
+			style="@style/yangshi_1" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_marginTop="10dip"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+	>
+		<TextView
+			android:id="@+id/businessServerText"
+			android:layout_width="150dip"
+			android:layout_height="wrap_content"
+			android:text="剩余时间："
+			style="@style/yangshi_1" />
+		<TextView
+			android:text="0"
+			android:id="@+id/exe_law_case_search_location_editText"
+			android:layout_width="170dip"
+			android:layout_height="wrap_content"
+			style="@style/yangshi_1" />
+	</LinearLayout>
+	<Button
+		android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip"
+		android:id="@+id/duanxin"
+		android:textColor="#ffffff"
+		android:text="短信提醒"
+		android:layout_marginTop="10dip"
+		android:background="@drawable/btn_bg"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+</LinearLayout>

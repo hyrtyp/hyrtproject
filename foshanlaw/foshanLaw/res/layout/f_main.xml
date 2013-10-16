@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main_table_layout"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+	android:layout_width="fill_parent"
+>
+	<RelativeLayout
+		android:id="@+id/main_choice_top"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/top1"
+	>
+		<TextView
+		    style="@style/yangshi_title"
+			android:text="统计分析"
+			android:layout_centerInParent="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</RelativeLayout>
+	<LinearLayout
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		android:paddingTop="20dip"
+		android:paddingBottom="20dip"
+		android:orientation="vertical"
+		android:layout_below="@+id/main_choice_top"
+		android:layout_height="fill_parent"
+		android:weightSum="3"
+		android:layout_width="fill_parent"
+	>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_weight="1"
+			android:weightSum="3"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+		>
+			<LinearLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+				<ImageView
+					android:id="@+id/icon_a"
+					android:layout_height="wrap_content"
+					android:background="@drawable/g_a"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="主体检查" />
+			</LinearLayout>
+			<LinearLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+				<ImageView
+					android:id="@+id/icon_b"
+					android:layout_height="wrap_content"
+					android:background="@drawable/g_b"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="主体回查" />
+			</LinearLayout>
+			<LinearLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+				<ImageView
+					android:id="@+id/icon_c"
+					android:layout_height="wrap_content"
+					android:background="@drawable/g_c"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="未检查任务" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_weight="1"
+			android:weightSum="3"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+		>
+			<LinearLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+				<ImageView
+					android:id="@+id/icon_d"
+					android:layout_height="wrap_content"
+					android:background="@drawable/g_d"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="未回查任务" />
+			</LinearLayout>
+			<LinearLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+				<ImageView
+					android:id="@+id/tjs"
+					android:layout_height="wrap_content"
+					android:background="@drawable/tjs"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="巡查记录表" />
+			</LinearLayout>
+			<LinearLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+					<ImageView
+					android:id="@+id/jls"
+					android:layout_height="wrap_content"
+					android:background="@drawable/jls"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="巡查统计数" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_weight="1"
+			android:weightSum="3"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+		>
+			<LinearLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+				
+					<ImageView
+					android:id="@+id/xch"
+					android:layout_height="wrap_content"
+					android:background="@drawable/xch"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="月份巡查户" />
+			</LinearLayout>
+			<LinearLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+					<ImageView
+					android:id="@+id/cxtj"
+					android:layout_height="wrap_content"
+					android:background="@drawable/xctj"
+					android:layout_width="wrap_content" />
+				<TextView
+					android:padding="2dip"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="#4c4e4d"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="查询统计" />
+			</LinearLayout>
+			<LinearLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+			>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

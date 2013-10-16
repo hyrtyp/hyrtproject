@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="button_right">
+		<item name="android:textColor">@color/white</item>
+		<item name="android:background">@drawable/selector_btn</item>
+		<item name="android:padding">10.0dip</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">35dip</item>
+		<item name="android:textSize">11sp</item>
+		<item name="android:layout_marginRight">10.0dip</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+	<style name="yangshi_1">
+		<item name="android:textSize">17sp</item>
+		<item name="android:textColor">#000</item>
+	</style>
+	<style name="yangshi_2">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#000</item>
+	</style>
+	<style name="yangshi_3">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#000</item>
+	</style>
+	<style name="yangshi_4">
+		<item name="android:layout_marginTop">60px</item>
+	</style>
+	<style name="yangshi_title">
+		<item name="android:textSize">30sp</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+</resources>

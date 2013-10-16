@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="33dip"
+    android:background="#300000FF"
+    android:paddingLeft="19dip"
+    android:visibility="gone" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="杨龙"
+        android:textColor="#90000000"
+        android:textSize="16dip"
+        android:id="@+id/item_item_tv"/>
+
+</RelativeLayout>

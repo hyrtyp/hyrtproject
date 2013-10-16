@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gb2312"?>
+<root>
+<err errno="AS00" errdesc="保存成功"/>
+<err errno="LS00" errdesc="登录成功"/>
+<err errno="LF00" errdesc="登录失败"/>
+<err errno="AE00" errdesc="无法预测的错误"/>
+<err errno="AE01" errdesc="IP配置XML解析错误"/>
+<err errno="AE02" errdesc="error配置XML解析错误"/>
+<err errno="AE03" errdesc="无法连接到业务应用"/>
+<err errno="AV00" errdesc="所调用接口为不可用"/>
+<err errno="BE00" errdesc="无法预测的ERROR"/>
+<err errno="BE01" errdesc="hqldict.xml配置XML解析错误"/>
+<err errno="BE02" errdesc="error配置XML解析错误"/>
+<err errno="BE03" errdesc="连接异常"/>
+<err errno="BE04" errdesc="传入的XML符串解析错误"/>
+<err errno="BE05" errdesc="没有查找到指定编号的HQL语句"/>
+<err errno="BE06" errdesc="执行HQL语句错误"/>
+<err errno="BV01" errdesc="没有找到查询结果"/>
+</root>
