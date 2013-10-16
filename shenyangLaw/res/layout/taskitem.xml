@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    >  
+	<RelativeLayout
+		android:paddingLeft="15dip"
+		android:paddingRight="15dip"
+		android:id="@+id/main_choice_top"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/top1"
+	>
+
+		<TextView
+			android:text="巡查公司查询"
+			android:id="@+id/yl_list_tt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:textColor="#eef6f9"
+			android:textSize="14sp" />
+		<ImageView
+			android:id="@+id/yl_list_back"
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/back"
+			android:layout_alignParentRight="true" />
+	</RelativeLayout>
+	<RelativeLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:padding="8dip"
+	>
+
+		<EditText
+			android:id="@+id/exe_law_case_search_code_editText"
+			android:layout_width="170dip"
+			android:layout_height="wrap_content"
+			style="@style/yangshi_1"
+			android:layout_alignParentRight="true"
+		/>
+		
+		<TextView
+		    android:id="@+id/loginServerText"
+		    style="@style/yangshi_1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBaseline="@+id/exe_law_case_search_code_editText"
+		    android:text="注册号：" />
+	</RelativeLayout>
+	
+	<RelativeLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:padding="8dip"
+	>
+		<EditText
+			android:id="@+id/exe_law_case_search_name_editText"
+			android:layout_width="170dip"
+			android:layout_height="wrap_content"
+			style="@style/yangshi_1"
+			android:layout_alignParentRight="true"
+		/>
+
+		<TextView
+		    android:id="@+id/loginPortText"
+		    style="@style/yangshi_1"
+		    android:layout_width="wrap_content"
+		    android:layout_alignBaseline="@+id/exe_law_case_search_name_editText"
+		    android:layout_height="wrap_content"
+		    android:text="公司名称：" />
+
+	</RelativeLayout>
+	<RelativeLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:padding="8dip"
+	>
+
+		<TextView
+		    android:id="@+id/businessServerText"
+		    style="@style/yangshi_1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_centerVertical="true"
+		    android:text="法人：" />
+		
+		<EditText
+			android:id="@+id/exe_law_case_search_location_editText"
+			android:layout_width="170dip"
+			android:layout_height="wrap_content"
+			style="@style/yangshi_1"
+			android:layout_alignBaseline="@+id/businessServerText"
+			android:layout_alignParentRight="true"
+		/>
+
+	</RelativeLayout>
+	<RelativeLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:padding="8dip"
+		android:gravity="center_vertical"
+	>
+		<EditText
+			android:id="@+id/exe_law_case_search_unit_personal_name_editText"
+			android:layout_width="170dip"
+			android:layout_height="wrap_content"
+			android:text=""
+			style="@style/yangshi_1"
+			android:layout_alignParentRight="true"
+		/>
+
+		<TextView
+		    android:id="@+id/businessServerText"
+		    style="@style/yangshi_1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBaseline="@+id/exe_law_case_search_unit_personal_name_editText"
+		    android:layout_alignParentLeft="true"
+		    android:gravity="center_vertical"
+		    android:maxLines="1"
+		    android:text="公司地址：" />
+
+	</RelativeLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="3"
+		android:gravity="center_horizontal"
+	>
+		<Button android:id="@+id/exe_law_case_search_config_configSubmit_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="35px"
+			android:text="开始查询"
+			android:padding="5dip"
+			android:textColor="#FFFFFF"
+			android:background="@drawable/btn_bg"
+		 />
+		 <Button android:id="@+id/exe_law_case_search_config_configCancel_button"
+		 	android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="35px"
+			android:text="清空输入"
+			android:padding="5dip"
+			android:textColor="#FFFFFF"
+			android:background="@drawable/btn_bg"
+		 />
+	</LinearLayout>
+</LinearLayout>

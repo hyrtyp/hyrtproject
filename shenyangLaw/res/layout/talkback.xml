@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abackground"
+   >
+    <RelativeLayout
+        android:id="@+id/main_choice_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top1" >
+
+        <TextView
+            style="@style/yangshi_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="群体对讲"/>
+        
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/back" android:layout_alignParentRight="true"
+            android:id="@+id/fanhui" android:paddingRight="20dip" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/main_choice_top"
+         android:id="@+id/parent_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/chatting_item_msg_text_right" />
+
+        <include layout="@layout/chatting_item_msg_text_right" />
+
+        <include layout="@layout/chatting_item_msg_text_right" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:padding="1dp" >
+
+        <Button
+            android:id="@+id/play_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送"
+            android:src="@drawable/btn_default_small" />
+
+        <Button
+            android:id="@+id/record_bt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/play_bt"
+            android:background="@drawable/btn_default_small"
+            android:text="点击开始录音"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

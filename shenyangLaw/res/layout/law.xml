@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    >  
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center"
+	>
+		<TextView
+			android:id="@+id/loginServerText"
+			android:layout_width="200dip"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dip"
+			android:text="法律法规"
+			android:gravity="center"
+			style="@style/yangshi_2"
+		/>
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal" android:gravity="center" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<TextView android:layout_marginLeft="5dip" android:layout_width="120dip" style="@style/yangshi_1" android:id="@+id/loginServerText" android:text="法律法规代码：" android:gravity="right" android:layout_height="wrap_content" android:inputType="phone"></TextView>
+		<EditText android:layout_weight="1" android:id="@+id/law_rule_code_editText" android:layout_marginRight="10dip" android:layout_marginLeft="10dip" android:layout_width="170dip" style="@style/yangshi_1" android:layout_height="wrap_content">
+			<requestFocus></requestFocus>
+		</EditText>
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center"
+	>
+		<TextView
+			android:id="@+id/loginPortText"
+			android:layout_width="120dip"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dip"
+			android:text="描述："
+			style="@style/yangshi_1"
+			android:gravity="right"
+			
+		/>
+		<EditText
+			android:id="@+id/law_rule_describe_editText"
+			android:layout_width="170dip"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:text=""
+			style="@style/yangshi_1"
+		/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="3"
+		android:gravity="center_horizontal"
+	>
+		<Button android:id="@+id/law_rule_config_configSubmit_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="15px"
+			android:layout_marginRight="15px"
+			style="@style/yangshi_1"
+			android:text="开始查询"
+		 />
+		 <Button android:id="@+id/law_rule_config_configCancel_button"
+		 	android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="15px"
+			android:layout_marginRight="15px"
+			style="@style/yangshi_1"
+			android:text="清空输入"
+		 />
+	</LinearLayout>
+</LinearLayout>

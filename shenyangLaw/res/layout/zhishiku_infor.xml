@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<RelativeLayout
+		android:id="@+id/zhishiinfor_top"
+		android:layout_width="fill_parent"
+		android:background="@drawable/top1"
+		android:layout_height="wrap_content">
+		<ImageView
+			android:id="@+id/zhishiinfo_shuaxin"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/shuaxin"
+			android:layout_marginLeft="15dp"
+			android:visibility="gone"
+			android:layout_centerVertical="true" />
+		<TextView
+			android:id="@+id/zhishiinfo_center_tv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="知识列表"
+			android:textSize="14sp"
+			android:textColor="#eef6f9"
+			android:layout_centerInParent="true" />
+		<ImageView
+			android:id="@+id/zhishiinfo_back_iv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="15dp"
+			android:src="@drawable/back"
+			android:layout_centerVertical="true" />
+	</RelativeLayout>
+	<RelativeLayout
+		android:id="@+id/zhishiinfo_rl2"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#efffff"
+		android:layout_below="@id/zhishiinfor_top">
+		<ListView
+			android:id="@+id/zhishiku_infor_list"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:cacheColorHint="@null">
+		</ListView>
+	</RelativeLayout>
+
+
+</RelativeLayout>

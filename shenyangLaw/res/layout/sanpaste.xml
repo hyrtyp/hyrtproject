@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#efffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top1"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="信息查询"
+            android:textColor="#ffffff"
+            android:textSize="14.0sp" />
+
+        <ImageView
+            android:id="@+id/list_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" 
+        android:layout_marginTop="10dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="注册号："
+            android:textColor="@color/black"
+            android:textSize="14.0sp" />
+
+        <EditText
+            android:id="@+id/registid"
+            android:layout_width="150.0dip"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="129999122"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/sanpaste_btn_san"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="15px"
+            android:text="条码扫描" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:layout_marginTop="10dip" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="公司名称："
+            android:textColor="@color/black"
+            android:textSize="14.0sp" />
+
+        <EditText
+            android:id="@+id/company"
+            android:layout_width="200.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:ems="10"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:layout_marginTop="10dip"
+        android:paddingRight="5dip" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="法人："
+            android:textColor="@color/black"
+            android:textSize="14.0sp" />
+
+        <EditText
+            android:id="@+id/company"
+            android:layout_width="200.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="36dp"
+            android:layout_toRightOf="@+id/textView2"
+            android:ems="10"
+            android:textColor="@color/black" >
+
+            <requestFocus />
+        </EditText>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:layout_marginTop="20dip"
+        android:gravity="center_horizontal" >
+        
+        <RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+			>
+
+				<Button
+					android:id="@+id/sanpaste_btn_query"
+					android:layout_width="100dip"
+					android:layout_height="30dip"
+					android:layout_centerInParent="true"
+					android:background="@drawable/btn_bg"
+					android:textColor="#FFFFFF"
+					android:text="查询" />
+			</RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

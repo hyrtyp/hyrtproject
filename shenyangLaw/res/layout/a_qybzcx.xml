@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top1"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" >
+
+        <Button
+            android:textColor="#ffffff"
+            android:id="@+id/top_button_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/top_button" />
+        <Button
+            android:textColor="#ffffff"
+            android:id="@+id/top_button_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/top_button" />
+        <TextView
+            android:id="@+id/top_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="主体查询"
+            style="@style/yangshi_title"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/top" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip" >
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="注册号："
+                    android:textColor="#000000">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/a_zch"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip" >
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="名称："
+                    android:textColor="#000000">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/a_mc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip" >
+
+                <TextView
+                    android:id="@+id/loginServerText"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="法定代表人："
+                    android:textColor="#000000">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/a_fddbr"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip" >
+
+                <TextView
+                    android:id="@+id/loginPortText"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="地址："
+                    android:textColor="#000000">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/a_dz"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip" >
+
+                <TextView
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="注册资本："
+                    android:textColor="#000000">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/zczb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip" >
+
+                <TextView
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="经营范围："
+                    android:textColor="#000000">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/jyfw"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip" >
+
+                <Button
+                    android:id="@+id/a_kscx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px"
+                    android:background="@drawable/button"
+                    android:text="开始查询"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/a_qksr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px"
+                    android:background="@drawable/button"
+                    android:text="清空输入"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

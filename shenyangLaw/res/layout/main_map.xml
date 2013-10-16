@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+     <com.esri.android.map.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+    </com.esri.android.map.MapView>
+
+    <ZoomControls
+        android:id="@+id/zoomControls1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/lkcxbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="19dp"
+        android:text="拉框查询企业" />
+
+    <Button
+        android:id="@+id/ljfxbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lkcxbtn"
+        android:layout_alignParentLeft="true"
+        android:text="路径规划" />
+
+    <Button
+        android:id="@+id/gjdscgjbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ljfxbtn"
+        android:layout_alignParentLeft="true"
+        android:text="巡查轨迹" />
+
+    <Button
+        android:id="@+id/ckbz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="查看标注" />
+
+    <Button
+        android:id="@+id/dqwzxs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gjdscgjbtn"
+        android:layout_alignParentLeft="true"
+        android:text="创建标注" />
+
+</RelativeLayout>

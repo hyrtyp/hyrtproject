@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout
+		android:id="@+id/top"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/top1"
+        android:paddingLeft="15dip"
+		android:paddingRight="15dip"
+		android:layout_alignParentTop="true">
+		<ImageView
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/shezhi"
+			android:layout_alignParentLeft="true"
+			android:id="@+id/tjgl_sz" />
+		<TextView
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="查询结果"
+			android:textSize="14.0sp"
+						android:textColor="#FFFFFF"
+			android:layout_centerInParent="true" />
+		<ImageView
+			android:id="@+id/tjgl_back"
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/back"
+			android:layout_alignParentRight="true" />
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:paddingTop="30dip"
+		android:background="#efffff"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<ImageView
+			android:visibility="gone"
+			android:id="@+id/img"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"/>
+		<!-- 设置 -->
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical">
+			<TableLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TableRow android:gravity="center">
+					<TextView
+						android:textSize="14.0sp"
+						android:textColor="#000000"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/tv_stat_type" />
+					<Spinner
+						android:entries="@array/stat_style"
+						android:layout_width="200.0dip"
+						android:layout_height="wrap_content" />
+				</TableRow>
+				<TableRow
+					android:gravity="center"
+					android:layout_marginTop="5.0dip">
+					<TextView
+						android:textSize="14.0sp"
+						android:textColor="#000000"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/tv_stat_scope" />
+					<Spinner
+						android:entries="@array/stat_style1"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content" />
+				</TableRow>
+				<TableRow
+					android:gravity="center"
+					android:layout_marginTop="5.0dip">
+					<TextView
+						android:textSize="14.0sp"
+						android:textColor="#000000"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/tv_inspect_type" />
+					<Spinner
+						android:entries="@array/stat_style2"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content" />
+				</TableRow>
+				<TableRow
+					android:gravity="center"
+					android:layout_marginTop="5.0dip">
+					<TextView
+						android:textSize="14.0sp"
+						android:textColor="#000000"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/tv_stat_period" />
+					<Spinner
+						android:entries="@array/stat_period"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content" />
+				</TableRow>
+				<TableRow
+					android:gravity="center"
+					android:visibility="gone"
+					android:layout_marginTop="5.0dip">
+					<TextView
+						android:textSize="14.0sp"
+						android:textColor="#000000"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/tv_stat_begin_date" />
+					<EditText
+						android:focusable="false"
+						android:focusableInTouchMode="false"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:cursorVisible="false" />
+				</TableRow>
+				<TableRow
+					android:gravity="center"
+					android:visibility="gone"
+					android:layout_marginTop="5.0dip">
+					<TextView
+						android:textSize="14.0sp"
+						android:textColor="#000000"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/tv_stat_end_date" />
+					<EditText
+						android:focusable="false"
+						android:focusableInTouchMode="false"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:cursorVisible="false" />
+				</TableRow>
+			</TableLayout>
+			<Button android:id="@+id/tjgl_find"
+			    android:layout_marginTop="15dip"
+			    android:layout_marginRight="20dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:padding="5dip"
+				android:text="开始统计"
+				android:textSize="14.0sp"
+				android:background="#ff9933" />
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

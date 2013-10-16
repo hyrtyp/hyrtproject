@@ -1,0 +1,463 @@
+<RelativeLayout
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="match_parent"
+	android:background="@drawable/background"
+	android:orientation="vertical"
+>
+
+	<RelativeLayout
+		android:id="@+id/top"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/top1"
+		android:paddingLeft="15dip"
+		android:paddingRight="15dip"
+	>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:text="巡查录入"
+			android:textColor="#eef6f9"
+			android:textSize="14sp" />
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:id="@+id/back_btn"
+			android:background="@drawable/back" />
+	</RelativeLayout>
+	<ScrollView
+		android:paddingTop="30dip"
+		android:paddingBottom="30dip"
+		android:layout_below="@+id/top"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	>
+		<LinearLayout
+
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+		>
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dip"
+				android:paddingRight="5dip"
+			>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:text="注册号："
+					android:textColor="@color/black"
+					android:textSize="14.0sp" />
+
+				<EditText
+					android:id="@+id/registid"
+					android:layout_width="200.0dip"
+					android:layout_height="wrap_content"
+					android:text="10000000003718"
+					android:textColor="@color/black"
+					android:gravity="center_vertical"
+					android:layout_alignParentRight="true" />
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dip"
+				android:paddingRight="5dip"
+			>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:text="公司名称："
+					android:textColor="@color/black"
+					android:textSize="14.0sp" />
+
+				<EditText
+					android:id="@+id/company"
+					android:layout_width="200.0dip"
+					android:layout_height="wrap_content"
+					android:textColor="@color/black"
+					android:gravity="center_vertical"
+					android:layout_alignParentRight="true"
+				>
+				</EditText>
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dip"
+				android:paddingRight="5dip"
+			>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:text="联系人："
+					android:textColor="@color/black"
+					android:textSize="14.0sp" />
+
+				<EditText
+					android:id="@+id/contact"
+					android:layout_width="200.0dip"
+					android:layout_height="wrap_content"
+					android:textColor="@color/black"
+					android:gravity="center_vertical"
+					android:layout_alignParentRight="true"
+				>
+				</EditText>
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dip"
+				android:paddingRight="5dip"
+			>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:text="电话号码："
+					android:textColor="@color/black"
+					android:textSize="14.0sp" />
+
+				<EditText
+					android:id="@+id/phone"
+					android:layout_width="200.0dip"
+					android:layout_height="wrap_content"
+					android:textColor="@color/black"
+					android:gravity="center_vertical"
+					android:layout_alignParentRight="true"
+				>
+				</EditText>
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dip"
+				android:paddingRight="5dip"
+			>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:text="主营项目："
+					android:textColor="@color/black"
+					android:textSize="14.0sp" />
+
+				<EditText
+					android:id="@+id/majorproject"
+					android:layout_width="200.0dip"
+					android:layout_height="wrap_content"
+					android:textColor="@color/black"
+					android:gravity="center_vertical"
+					android:layout_alignParentRight="true"
+				>
+				</EditText>
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dip"
+				android:paddingRight="5dip"
+			>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:text="检查类型："
+					android:textColor="@color/black"
+					android:textSize="14.0sp" />
+
+				<EditText
+					android:id="@+id/checktype"
+					android:layout_width="200.0dip"
+					android:layout_height="wrap_content"
+					android:textColor="@color/black"
+					android:gravity="center_vertical"
+					android:layout_alignParentRight="true"
+				>
+				</EditText>
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="5dip"
+			>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:text="重点监控地区："
+					android:textColor="@color/black"
+					android:textSize="14.0sp" />
+
+				<Spinner
+					android:id="@+id/monitoringarea"
+					android:layout_width="200.0dip"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					android:text="重点监控地区" />
+			</RelativeLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:weightSum="3"
+			>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:text="巡查事项"
+					android:textColor="@color/black"
+					android:textSize="14.0sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:text="问题"
+					android:textColor="@color/black"
+					android:textSize="14.0sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:text="处理方式"
+					android:textColor="@color/black"
+					android:textSize="14.0sp" />
+			</LinearLayout>
+
+			<ScrollView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:scrollbars="vertical"
+			>
+
+				<LinearLayout
+					android:id="@+id/spinner_ll"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+				>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="45dip"
+						android:paddingTop="10dip"
+						android:weightSum="3"
+					>
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:text="巡查事项"
+							android:id="@+id/xcsx1" />
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:text="问题"
+							android:id="@+id/wt1" />
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:text="处理方式"
+							android:id="@+id/clfs1" />
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="45dip"
+						android:paddingTop="10dip"
+						android:weightSum="3"
+					>
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:text="巡查事项"
+							android:id="@+id/xcsx2" />
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:id="@+id/wt2"
+							android:text="问题" />
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:id="@+id/clfs2"
+							android:text="处理方式" />
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="45dip"
+						android:paddingTop="10dip"
+						android:weightSum="3"
+					>
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:text="巡查事项"
+							android:id="@+id/xcsx3" />
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:id="@+id/wt3"
+							android:text="问题" />
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:id="@+id/clfs3"
+							android:text="处理方式" />
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="45dip"
+						android:paddingTop="10dip"
+						android:weightSum="3"
+					>
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:text="巡查事项"
+							android:id="@+id/xcsx4" />
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:id="@+id/wt4"
+							android:text="问题" />
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:text="处理方式"
+							android:id="@+id/clfs4" />
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="45dip"
+						android:paddingTop="10dip"
+						android:weightSum="3"
+					>
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:text="巡查事项"
+							android:id="@+id/xcsx5" />
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:id="@+id/wt5"
+							android:text="问题" />
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:text="处理方式"
+							android:id="@+id/clfs5" />
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="45dip"
+						android:paddingTop="10dip"
+						android:weightSum="3"
+					>
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:text="巡查事项"
+							android:id="@+id/xcsx6" />
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:id="@+id/wt6"
+							android:text="问题" />
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:text="处理方式"
+							android:id="@+id/clfs6" />
+					</LinearLayout>
+
+				</LinearLayout>
+			</ScrollView>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+			>
+
+				<Button
+					android:id="@+id/tj_bt"
+					android:layout_width="100dip"
+					android:layout_height="30dip"
+					android:layout_centerInParent="true"
+					android:background="@drawable/btn_bg"
+					android:text="提交" />
+			</RelativeLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>
