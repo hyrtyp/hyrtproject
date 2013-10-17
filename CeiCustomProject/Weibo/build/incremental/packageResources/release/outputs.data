@@ -1,0 +1,8 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1381933188000 401 407da29e9575b19a64dac74cc5baa51873546ffd /home/yepeng/CeiCustomProject/Weibo/build/bundles/release/res/values-large/values.xml
+1381933188000 406 8b26f86e7b5b38d076a00d22ef3e1d3ae10fe05f /home/yepeng/CeiCustomProject/Weibo/build/bundles/release/res/values-large-long/values.xml
+1381933188000 304 e2f500cfd21eb35d16837af2f08d402adc6ec8d8 /home/yepeng/CeiCustomProject/Weibo/build/bundles/release/res/drawable/weibosdk_dialog_bg.9.png
+1381933188000 410 0fc420f6d0df38e9ad221b406bcffddd3809a895 /home/yepeng/CeiCustomProject/Weibo/build/bundles/release/res/values-normal-notlong/values.xml
+1381933188000 630 a612284f850887ec8dc150d63b55b2432d43ca0d /home/yepeng/CeiCustomProject/Weibo/build/bundles/release/res/values/values.xml

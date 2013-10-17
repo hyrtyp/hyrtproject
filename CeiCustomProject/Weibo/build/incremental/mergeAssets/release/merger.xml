@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/yepeng/CeiCustomProject/Weibo/src/main/assets" >
+            <file
+                name="weibosdk_dialog_bg.9.png"
+                path="/home/yepeng/CeiCustomProject/Weibo/src/main/assets/weibosdk_dialog_bg.9.png" />
+            <file
+                name="values/dimens.xml"
+                path="/home/yepeng/CeiCustomProject/Weibo/src/main/assets/values/dimens.xml" />
+        </source>
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/yepeng/CeiCustomProject/Weibo/src/release/assets" />
+    </dataSet>
+
+</merger>
