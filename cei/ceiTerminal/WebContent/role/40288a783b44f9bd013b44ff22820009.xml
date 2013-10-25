@@ -1,0 +1,46 @@
+<list>
+  <MwpmDictFunction>
+    <id>00000001</id>
+    <name>通用版</name>
+    <parentid></parentid>
+    <path></path>
+    <type></type>
+    <operationimage></operationimage>
+    <issuetime>1900-01-01 00:00:00.0</issuetime>
+    <ipadimage></ipadimage>
+    <ipadImageTime></ipadImageTime>
+  </MwpmDictFunction>
+  <MwpmDictFunction>
+    <id>40288a78380e51ee0138217df6d70005</id>
+    <name>经济数据</name>
+    <parentid>00000001</parentid>
+    <path>//00000001</path>
+    <type></type>
+    <operationimage></operationimage>
+    <issuetime>2012-06-25 10:34:59.0</issuetime>
+    <ipadimage>aasdags.png</ipadimage>
+    <ipadImageTime></ipadImageTime>
+  </MwpmDictFunction>
+  <MwpmDictFunction>
+    <id>40288a783878cbb401387a68b08f004c</id>
+    <name>指标查询</name>
+    <parentid>40288a78380e51ee0138217df6d70005</parentid>
+    <path>//00000001//40288a78380e51ee0138217df6d70005</path>
+    <type>db</type>
+    <operationimage></operationimage>
+    <issuetime>2012-07-12 16:57:57.0</issuetime>
+    <ipadimage></ipadimage>
+    <ipadImageTime></ipadImageTime>
+  </MwpmDictFunction>
+  <MwpmDictFunction>
+    <id>40288a7838e0f2f40138e600dc5b0081</id>
+    <name>数据指数</name>
+    <parentid>40288a78380e51ee0138217df6d70005</parentid>
+    <path>//00000001//40288a78380e51ee0138217df6d70005</path>
+    <type>db</type>
+    <operationimage></operationimage>
+    <issuetime>2012-08-02 14:23:32.0</issuetime>
+    <ipadimage></ipadimage>
+    <ipadImageTime></ipadImageTime>
+  </MwpmDictFunction>
+</list>

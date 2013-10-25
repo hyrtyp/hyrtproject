@@ -1,0 +1,38 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+	<bean id="ceiDictDao" class="com.hyrt.lcsis.webservice.dao.LcsisDictDaoImpl">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean id="ceiUserInfoService" class="com.hyrt.lcsis.webservice.service.LcsisUserInfoServiceImpl">
+		<property name="ceiDictDao" ref="ceiDictDao"></property>
+		<property name="sender" ref="mailSender"></property>
+	</bean>
+	
+	
+	
+	<bean id="mailSender"
+		class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host">
+			<value>smtp.163.com</value>
+		</property>
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.smtp.auth">true</prop>
+				<prop key="mail.smtp.timeout">25000</prop>
+			</props>
+		</property>
+		<property name="username">
+			<value>javamail_test2013@163.com</value>
+		</property>
+		<property name="password">
+			<value>javamail2013</value>
+		</property>
+	</bean>
+	
+</beans>

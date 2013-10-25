@@ -2,17 +2,17 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/home/yepeng/CeiCustomProject/Weibo/src/main/assets" >
+        <source path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/assets" >
             <file
                 name="weibosdk_dialog_bg.9.png"
-                path="/home/yepeng/CeiCustomProject/Weibo/src/main/assets/weibosdk_dialog_bg.9.png" />
+                path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/assets/weibosdk_dialog_bg.9.png" />
             <file
                 name="values/dimens.xml"
-                path="/home/yepeng/CeiCustomProject/Weibo/src/main/assets/values/dimens.xml" />
+                path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/assets/values/dimens.xml" />
         </source>
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/yepeng/CeiCustomProject/Weibo/src/debug/assets" />
+        <source path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/debug/assets" />
     </dataSet>
 
 </merger>

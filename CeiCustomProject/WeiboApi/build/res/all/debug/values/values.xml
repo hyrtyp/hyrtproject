@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/home/yepeng/CeiCustomProject/WeiboApi/build/exploded-bundles/CeiCustomProjectWeiboUnspecified.aar/res/values/values.xml -->
+    <!-- From: file:/home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/exploded-bundles/CeiCustomProjectWeiboUnspecified.aar/res/values/values.xml -->
     <color name="dialog_title_blue">#9CCCF7</color>
     <color name="text_num_gray">#333</color>
     <color name="transparent">#00000000</color>

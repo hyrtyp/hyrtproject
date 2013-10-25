@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/home/yepeng/CeiCustomProject/Weibo/src/main/res/values-large-long/dimens.xml -->
+    <!-- From: file:/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/res/values-large-long/dimens.xml -->
     <dimen name="weibosdk_dialog_bottom_margin">15dp</dimen>
     <dimen name="weibosdk_dialog_left_margin">30dp</dimen>
     <dimen name="weibosdk_dialog_right_margin">30dp</dimen>

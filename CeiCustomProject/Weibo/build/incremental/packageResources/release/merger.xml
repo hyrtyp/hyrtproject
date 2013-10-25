@@ -2,9 +2,9 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/home/yepeng/CeiCustomProject/Weibo/src/main/res" >
+        <source path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/res" >
             <file
-                path="/home/yepeng/CeiCustomProject/Weibo/src/main/res/values-large/dimens.xml"
+                path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/res/values-large/dimens.xml"
                 qualifiers="large" >
                 <dimen name="weibosdk_dialog_bottom_margin" >15dp
                 </dimen>
@@ -17,11 +17,11 @@
             </file>
             <file
                 name="weibosdk_dialog_bg"
-                path="/home/yepeng/CeiCustomProject/Weibo/src/main/res/drawable/weibosdk_dialog_bg.9.png"
+                path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/res/drawable/weibosdk_dialog_bg.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
-                path="/home/yepeng/CeiCustomProject/Weibo/src/main/res/values/color.xml"
+                path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/res/values/color.xml"
                 qualifiers="" >
                 <color name="dialog_title_blue" >#9CCCF7
                 </color>
@@ -31,7 +31,7 @@
                 </color>
             </file>
             <file
-                path="/home/yepeng/CeiCustomProject/Weibo/src/main/res/values/dimens.xml"
+                path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/res/values/dimens.xml"
                 qualifiers="" >
                 <dimen name="weibosdk_dialog_right_margin" >10dp
                 </dimen>
@@ -43,7 +43,7 @@
                 </dimen>
             </file>
             <file
-                path="/home/yepeng/CeiCustomProject/Weibo/src/main/res/values-large-long/dimens.xml"
+                path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/res/values-large-long/dimens.xml"
                 qualifiers="large-long" >
                 <dimen name="weibosdk_dialog_top_margin" >30dp
                 </dimen>
@@ -55,7 +55,7 @@
                 </dimen>
             </file>
             <file
-                path="/home/yepeng/CeiCustomProject/Weibo/src/main/res/values-normal-notlong/dimens.xml"
+                path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/res/values-normal-notlong/dimens.xml"
                 qualifiers="normal-notlong" >
                 <dimen name="weibosdk_dialog_left_margin" >30dp
                 </dimen>
@@ -67,10 +67,10 @@
                 </dimen>
             </file>
         </source>
-        <source path="/home/yepeng/CeiCustomProject/Weibo/build/res/rs/release" />
+        <source path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/build/res/rs/release" />
     </dataSet>
     <dataSet config="release" >
-        <source path="/home/yepeng/CeiCustomProject/Weibo/src/release/res" />
+        <source path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/release/res" />
     </dataSet>
 
 </merger>

@@ -1,0 +1,24 @@
+<list>
+  <MwpmDictFunction>
+    <id>40288a203792031f01379222267f0076</id>
+    <name>测试一</name>
+    <parentid>40288a78377288080137729950730011</parentid>
+    <path>//40288a78377288080137729950730011</path>
+    <type>bg</type>
+    <operationimage>ScreenHunter_004.png</operationimage>
+    <issuetime>2012-05-28 15:36:22.0</issuetime>
+    <ipadimage></ipadimage>
+    <ipadImageTime></ipadImageTime>
+  </MwpmDictFunction>
+  <MwpmDictFunction>
+    <id>40288a78377288080137729950730011</id>
+    <name>党政版</name>
+    <parentid></parentid>
+    <path>null</path>
+    <type></type>
+    <operationimage></operationimage>
+    <issuetime>2012-05-22 11:31:19.0</issuetime>
+    <ipadimage></ipadimage>
+    <ipadImageTime></ipadImageTime>
+  </MwpmDictFunction>
+</list>

@@ -11,16 +11,16 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        /**  From: file:/home/yepeng/CeiCustomProject/WeiboApi/build/exploded-bundles/CeiCustomProjectWeiboUnspecified.aar/res/values/values.xml 
+        /**  From: file:/home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/exploded-bundles/CeiCustomProjectWeiboUnspecified.aar/res/values/values.xml 
          */
         public static int dialog_title_blue=0x7f030000;
         public static int text_num_gray=0x7f030001;
         public static int transparent=0x7f030002;
     }
     public static final class dimen {
-        /**  From: file:/home/yepeng/CeiCustomProject/WeiboApi/build/exploded-bundles/CeiCustomProjectWeiboUnspecified.aar/res/values-large/values.xml 
- From: file:/home/yepeng/CeiCustomProject/WeiboApi/build/exploded-bundles/CeiCustomProjectWeiboUnspecified.aar/res/values-large-long/values.xml 
- From: file:/home/yepeng/CeiCustomProject/WeiboApi/build/exploded-bundles/CeiCustomProjectWeiboUnspecified.aar/res/values-normal-notlong/values.xml 
+        /**  From: file:/home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/exploded-bundles/CeiCustomProjectWeiboUnspecified.aar/res/values-large/values.xml 
+ From: file:/home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/exploded-bundles/CeiCustomProjectWeiboUnspecified.aar/res/values-large-long/values.xml 
+ From: file:/home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/exploded-bundles/CeiCustomProjectWeiboUnspecified.aar/res/values-normal-notlong/values.xml 
          */
         public static int weibosdk_dialog_bottom_margin=0x7f040000;
         public static int weibosdk_dialog_left_margin=0x7f040001;

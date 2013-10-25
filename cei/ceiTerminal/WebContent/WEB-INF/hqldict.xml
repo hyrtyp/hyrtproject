@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="gb2312"?>
+<root>
+<pagesize>20</pagesize>
+
+	<query code="OA_DCLGW_INFO" name="查询待处理公文的详细信息" querydesc="查询待处理公文的详细信息">
+	<hqlcount></hqlcount>
+	<hql>select a.name as name,a.valuenumber as valuenumber,a.valueorgans as valueorgans,convert(varchar(10),a.valuedate, 111) as valuedate,a.valuespeed as valuespeed,a.nodename as nodename,a.date as date,b.name as fjname,b.Path as oacommonpath from Oa_Task  a left join Oa_Task_File b  on  a.Id = b.taskId where 1=1 </hql>
+	<dispfld>
+		<name>文件标题</name>
+		<valuenumber>文号</valuenumber>
+		<valueorgans>来文机关</valueorgans>
+		<valuedate>来文时间</valuedate>
+		<valuespeed>紧急程度</valuespeed>
+		<nodename>当前任务</nodename>
+		<date>收到时间</date>
+		<fjname>附件</fjname>
+		<oacommonpath>路径</oacommonpath>
+		
+	</dispfld>
+	<wherefld>
+	<equals>
+		<id>a.id ='####'</id>	
+	</equals>
+	<like>
+	</like>		
+	</wherefld>
+	<orderby> </orderby>
+	<groupby></groupby>
+	</query>
+	
+	<query code="OA_DCLGW_LIST" name="查询待处理公文信息列表" querydesc="根据标题、来文时间查询待处理公文列表">
+		<hqlcount>select count(id) as id  from Oa_Task a  where 1=1</hqlcount>
+		<hql>select convert(varchar(50),id) as id,name as name,convert(varchar(10),valuedate, 111) as valuedate from Oa_Task a  where 1=1 AND IsPause = '0' </hql>
+		<wherefld>
+		<equals>
+		    <name>a.name='####'</name>
+			<sdate>a.date＞='####'</sdate>
+			<edate>a.date＜='####'</edate>
+			<username>a.username='####'</username>
+			<valuenumber>a.valuenumber='####'</valuenumber>
+		</equals>
+		<like>
+		    <name>a.name like '%####%'</name>
+			<sdate>a.date＞='####'</sdate>
+			<edate>a.date＜='####'</edate>
+			<username>a.username like '%####%'</username>
+			<valuenumber>a.valuenumber like '%####%'</valuenumber>
+		</like>	
+		</wherefld>
+		<orderby> valuedate desc </orderby>
+	</query>
+	
+	<query code="OA_XFGW_INFO" name="查询下发公文的详细信息" querydesc="查询下发公文的详细信息">
+	<hqlcount></hqlcount>
+    <hql>select a.id as id,a.workId as workid, a.taskId as taskid, a.owner as owner
+    ,a.ownerAccount as owneraccount,a.html as html from Oa_Release a where 1=1  </hql>
+	<dispfld>
+		<id>id</id>
+		<workid>workId</workid>
+		<taskid>taskId</taskid>
+		<owner>owner</owner>
+		<owneraccount>ownerAccount</owneraccount>
+		<html>html</html>
+	</dispfld>
+	<wherefld>
+	<equals>
+		<id>a.id ='####'</id>	
+	</equals>
+	<like>
+	</like>		
+	</wherefld>
+	<orderby></orderby>
+	<groupby></groupby>
+	</query>
+	
+	<query code="OA_XFGW_LIST" name="查询下发公文信息列表" querydesc="根据标题、下发时间查询下发公文列表">
+		<hqlcount>select count(a.id) as id  from Oa_Release a  where 1=1</hqlcount>
+		<hql>select convert(varchar(50),a.id) as id,a.valueTitle as valueTitle,a.valueNumber as valueNumber,convert(varchar(10),valuedate, 111) as valuedate from Oa_Release a  where 1=1 </hql>
+		<wherefld>
+		<equals>
+			<valueTitle>a.valueTitle ='####'</valueTitle>
+			<sdate>a.valuedate＞='####'</sdate>
+			<edate>a.valuedate＜='####'</edate>
+			<owner>a.owner='####'</owner>
+			<valuenumber>a.valueNumber='####'</valuenumber>
+		</equals>
+		<like>
+			<valueTitle>a.valueTitle like '%####%'</valueTitle>
+			<sdate>a.valuedate＞='####'</sdate>
+			<edate>a.valuedate＜='####'</edate>
+			<owner>a.owner like '%####%'</owner>
+			<valuenumber>a.valueNumber like '%####%'</valuenumber>
+		</like>	
+		</wherefld>
+		<orderby> valuedate desc </orderby>
+	</query>
+	
+	<query code="OA_SDGW_INFO" name="查询收到公文的详细信息" querydesc="查询收到公文的详细信息">
+	<hqlcount></hqlcount>
+	<hql>select a.valueTitle as valueTitle,a.valueNumber as valueNumber,a.valueOrgans as valueOrgans,a.valueDate as valueDate, a.date as date , a.userlist as userlist ,b.name as fjname,b.path as  oacommonpath from Oa_Release a left join Oa_Task_File b  on a.TaskId  = b.TaskId where 1=1  </hql>
+	<dispfld>
+		<valueTitle>文件名称</valueTitle>
+		<valueNumber>文号</valueNumber>
+		<valueOrgans>来文机关</valueOrgans>
+		<valueDate>下发时间</valueDate>
+		<date>签收时间</date>
+		<userlist>下发人员</userlist>
+		<fjname>附件</fjname>
+		<oacommonpath>路径</oacommonpath>
+	</dispfld>
+	<wherefld>
+	<equals>
+		<id>a.id ='####'</id>	
+	</equals>
+	<like>
+	</like>		
+	</wherefld>
+	<orderby></orderby>
+	<groupby></groupby>
+	</query>
+	
+	<query code="OA_SDGW_LIST" name="查询收到公文信息列表" querydesc="根据标题、文号查询收到公文列表">
+		<hqlcount>select count(id) as id  from Oa_View_ReleaseList a  where 1=1</hqlcount>
+		<hql>select convert(varchar(50),a.id)  as id,valueTitle as valueTitle,valueNumber as valueNumber from Oa_View_ReleaseList a  where 1=1 </hql>
+		<wherefld>
+		<equals>
+			<valueTitle>a.valueTitle ='####'</valueTitle>
+			<valueNumber>a.valueNumber='####'</valueNumber>
+			<userName>a.userName='####'</userName>
+			<sdate>a.valuedate＞='#### 00:00:00'</sdate>
+			<edate>a.valuedate＜='#### 23:59:59'</edate>
+			<ValueOrgans>a.ValueOrgans='####'</ValueOrgans>
+			
+		</equals>
+		<like>
+			<valueTitle>a.valueTitle like '%####%'</valueTitle>
+			<valueNumber>a.valueNumber like '%####%'</valueNumber>
+			<userName>a.userName like '%####%'</userName>
+			<sdate>a.valuedate＞='#### 00:00:00'</sdate>
+			<edate>a.valuedate＜='#### 23:59:59'</edate>
+			<ValueOrgans>a.ValueOrgans like '%####%'</ValueOrgans>
+		</like>	
+		</wherefld>
+		<orderby></orderby>
+	    <groupby></groupby>
+	</query>
+	
+	<query code="OA_EMIAL_LIST" name="查询邮件信息列表" querydesc="根据登记主题、发件人条件查询">
+		<hqlcount>select count(id) as id from OA_View_MailList where 1=1 </hqlcount>
+		<hql>select convert(varchar(50),id) as id,title as title, owneraccount as owneraccount  from OA_View_MailList where 1=1 </hql>
+		<wherefld>
+		<equals>
+			<title>title ='####'</title>
+			<owner>owner = '####'</owner>
+			<username>username = '####'</username>
+			<sdate>date＞='#### 00:00:00'</sdate>
+			<edate>date＜='#### 23:59:59'</edate>
+		</equals>
+		<like>
+			<title>title like '%####%'</title>
+			<owner>owner like '%####%'</owner>
+			<username>username = '####'</username>
+			<sdate>date＞='#### 00:00:00'</sdate>
+			<edate>date＜='#### 23:59:59'</edate>
+		</like>
+		</wherefld>
+		<orderby></orderby>
+		<groupby></groupby>
+	</query>
+	
+	<query code="OA_EMAIL_INFO" name="获得邮件详细信息" querydesc="根据ID获得邮件详细信息">
+		<hqlcount></hqlcount>
+		<hql>select convert(varchar(50),a.id) as id ,a.fileid as fileid,a.title as title,a.owneraccount as owneraccount,a.userlist as userlist,a.date as mydate,a.message as message,b.name as filelist,b.path as emailpath  from  Oa_mail a , Oa_Mail_File b  where 1=1 and a.fileId like '%'+ convert(varchar(50),b.id)+'%' </hql>
+		<dispfld>
+			<title>主题</title>
+			<owneraccount>来自</owneraccount>
+			<userlist>发给</userlist>
+			<mydate>日期</mydate>
+			<message>内容</message>
+			<filelist>附件</filelist>
+			<emailpath>路径</emailpath>
+			         
+		</dispfld>
+		<wherefld>
+		<equals>
+			<id>a.id ='####'</id>
+		</equals>
+		<like>
+			<id>id like '%####%'</id>
+		</like>
+		</wherefld>
+		<orderby></orderby>
+		<groupby></groupby>
+	</query>
+	
+	
+	
+	<query code="LOGIN_USER_INFO" name="用户登录" querydesc="根据登录名、密码、机构编号验证用户登录">
+	<hqlcount></hqlcount>
+	<hql>select loginname as loginname,password as password,unitid as unitid from MWPM_SYS_USERINFO where 1=1 </hql>
+	<dispfld>
+		<loginname>登录帐号</loginname>
+		<password>登录密码</password>
+		<unitid>组织机构标识</unitid>
+	</dispfld>
+	<wherefld>
+	<equals>
+		<loginname>loginname ='####'</loginname>	
+	</equals>
+	<like>
+	</like>		
+	</wherefld>
+	<orderby> </orderby>
+	<groupby></groupby>
+	</query>
+	
+	
+</root>
+

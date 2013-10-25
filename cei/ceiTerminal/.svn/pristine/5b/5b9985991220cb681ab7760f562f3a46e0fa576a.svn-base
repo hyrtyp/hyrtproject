@@ -1,0 +1,246 @@
+<list>
+  <MwpmSysClass>
+    <id>40288a783b2be751013b2be94eb40003</id>
+    <name>aaaasdfsdf</name>
+    <intro>fdsfsdf</intro>
+    <teachername>sfdsfs</teachername>
+    <classlength>11</classlength>
+    <isfree>1</isfree>
+    <time class="sql-timestamp">2012-11-23 14:15:25.0</time>
+    <path>/kj/2012/11/23/a70970e4f7a14dad9ec2488df15553f3</path>
+    <setnum>11</setnum>
+    <passkey>110,116,126,41,|113,108,91,44,|40,40,40,64,@!@!@!@!</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b276564013b2be374b8000b</id>
+    <name>aaadfdfd</name>
+    <intro>afdsafds</intro>
+    <teachername>asf</teachername>
+    <classlength>11</classlength>
+    <isfree>1</isfree>
+    <time class="sql-timestamp">2012-11-23 14:08:57.0</time>
+    <path>/kj/2012/11/23/b930e97595f341738ae51ac6b99af8f1</path>
+    <setnum>11</setnum>
+    <passkey></passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b26e03b013b2746ae170009</id>
+    <name>1122测试</name>
+    <intro>1122测试1122测试1122测试</intro>
+    <teachername>1122手机</teachername>
+    <classlength>1222</classlength>
+    <isfree>1</isfree>
+    <time class="sql-timestamp">2012-11-22 16:33:18.0</time>
+    <path>/kj/2012/11/22/6301b9f751774743a18152ab547a055d</path>
+    <setnum>0</setnum>
+    <passkey>110,116,126,41,|113,108,91,44,|40,40,40,64,@!110,116,126,41,|113,108,91,44,|40,40,40,64,@!@!@!</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b269842013b26beeb350005</id>
+    <name>中经网很烂</name>
+    <intro>中经网很烂</intro>
+    <teachername>中经网很烂</teachername>
+    <classlength>1500</classlength>
+    <isfree>1</isfree>
+    <time class="sql-timestamp">2012-11-22 14:00:16.0</time>
+    <path>/kj/2012/11/22/91bc4ebbd2124219b4c15bbe46492f7d</path>
+    <setnum>1</setnum>
+    <passkey>null@!110,116,126,41,|113,108,91,44,|40,40,40,64,@!@!@!</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b218d6e013b21b7c37d0021</id>
+    <name>PC同步6</name>
+    <intro>11</intro>
+    <teachername>11</teachername>
+    <classlength>11</classlength>
+    <isfree>1</isfree>
+    <time class="sql-timestamp">2012-11-21 14:45:50.0</time>
+    <path>/kj/2012/11/21/1082c722eb1e4cc3859229f024d1c89e</path>
+    <setnum>11</setnum>
+    <passkey>@!110,116,126,41,|113,108,91,44,|40,40,40,64,@!@!@!</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b218d6e013b21b45dfc001b</id>
+    <name>PC同步5</name>
+    <intro>11</intro>
+    <teachername>11</teachername>
+    <classlength>11</classlength>
+    <isfree>0</isfree>
+    <time class="sql-timestamp">2012-11-21 14:41:53.0</time>
+    <path>/kj/2012/11/21/9661705d9aef4c828493197d63056611</path>
+    <setnum>1</setnum>
+    <passkey>@!110,116,126,41,|113,108,91,44,|40,40,40,64,@!@!@!</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b218d6e013b21b2845a0015</id>
+    <name>PC同步4</name>
+    <intro>111</intro>
+    <teachername>11</teachername>
+    <classlength>11</classlength>
+    <isfree>1</isfree>
+    <time class="sql-timestamp">2012-11-21 14:40:08.0</time>
+    <path>/kj/2012/11/21/5750123ddb5c467ba75b33b399642543</path>
+    <setnum>11</setnum>
+    <passkey>@!110,116,126,41,|113,108,91,44,|40,40,40,64,@!@!@!</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b218d6e013b21b136cb000f</id>
+    <name>PC同步3</name>
+    <intro>PC同步3</intro>
+    <teachername>PC同步3</teachername>
+    <classlength>11</classlength>
+    <isfree>1</isfree>
+    <time class="sql-timestamp">2012-11-21 14:38:56.0</time>
+    <path>/kj/2012/11/21/5f9869c0c8874c5d928abe23f63b4a58</path>
+    <setnum>1</setnum>
+    <passkey>@!@!@!@!</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b218d6e013b21ae7c9d0009</id>
+    <name>PC同步1</name>
+    <intro>PC同步1</intro>
+    <teachername>PC同步1</teachername>
+    <classlength>11</classlength>
+    <isfree>0</isfree>
+    <time class="sql-timestamp">2012-11-21 14:32:42.0</time>
+    <path>/kj/2012/11/21/2dd4bb167db9481d9228d920011e1ef0</path>
+    <setnum>1</setnum>
+    <passkey>@!null@!@!@!</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b218d6e013b2192200e0003</id>
+    <name>PC同步2</name>
+    <intro>PC同步2</intro>
+    <teachername>PC同步2</teachername>
+    <classlength>11</classlength>
+    <isfree>0</isfree>
+    <time class="sql-timestamp">2012-11-21 14:04:06.0</time>
+    <path>/kj/2012/11/21/2aee1e9d1f3b47079ce0cba1af272d39</path>
+    <setnum>1</setnum>
+    <passkey>110,116,126,41,|113,108,91,44,|40,40,40,64,@!@!@!@!</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b1d2743013b20f674fb0012</id>
+    <name>叶鹏的课件</name>
+    <intro>叶鹏叶鹏叶鹏叶鹏叶鹏叶鹏叶鹏叶鹏叶鹏叶鹏</intro>
+    <teachername>叶鹏</teachername>
+    <classlength>200</classlength>
+    <isfree>0</isfree>
+    <time class="sql-timestamp">2012-11-21 11:08:41.0</time>
+    <path>/kj/2012/11/21/4077cb91e7a34fd99c93345c02ad7d45</path>
+    <setnum>50</setnum>
+    <passkey>@!110,116,126,41,|113,108,91,44,|40,40,40,64,@!@!@!</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b1d2743013b20c84417000c</id>
+    <name>daydayup</name>
+    <intro>好好学习</intro>
+    <teachername>胡八一</teachername>
+    <classlength>60</classlength>
+    <isfree>1</isfree>
+    <time class="sql-timestamp">2012-11-21 10:21:45.0</time>
+    <path>/kj/2012/11/21/c926539d5a054991b932968de4110bbf</path>
+    <setnum>60</setnum>
+    <passkey>@!110,116,126,41,|113,108,91,44,|40,40,40,64,@!@!@!</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b1c6e9d013b1cc668280005</id>
+    <name>scscscscscs</name>
+    <intro>ccscscscs</intro>
+    <teachername>cscscs</teachername>
+    <classlength>1500</classlength>
+    <isfree>1</isfree>
+    <time class="sql-timestamp">2012-11-20 15:39:18.0</time>
+    <path>/kj/2012/11/20/0a55aa3b6066436ea45d02018e33648f</path>
+    <setnum>1</setnum>
+    <passkey>@!||113,108,91,44,|@!@!@!</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b178cb6013b1b306d10000d</id>
+    <name>cscscscs</name>
+    <intro>cscscscs</intro>
+    <teachername>cscscscs</teachername>
+    <classlength>15</classlength>
+    <isfree>1</isfree>
+    <time class="sql-timestamp">2012-11-20 08:12:01.0</time>
+    <path>/kj/2012/11/20/4d478f935e6c401a93d7ea7d47365049</path>
+    <setnum>1</setnum>
+    <passkey>110,116,126,41,|113,108,91,44,|40,40,40,64,@!40,40,40,40,|113,108,91,44,|@!@!@!</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b178cb6013b181ec3ea0006</id>
+    <name>cscscs</name>
+    <intro>cscscscs</intro>
+    <teachername>cscs</teachername>
+    <classlength>15</classlength>
+    <isfree>1</isfree>
+    <time class="sql-timestamp">2012-11-19 17:51:21.0</time>
+    <path>/kj/2012/11/19/e9314483779348aebaa0402297896819</path>
+    <setnum>1</setnum>
+    <passkey>40,40,40,40,|40,40,40,40,|113,108,91,44,|</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b174530013b174e469f0003</id>
+    <name>2012/11/19cscs</name>
+    <intro>cs</intro>
+    <teachername>cs</teachername>
+    <classlength>15</classlength>
+    <isfree>1</isfree>
+    <time class="sql-timestamp">2012-11-19 14:06:39.0</time>
+    <path>/kj/2012/11/19/e0701dff52a74d7fbcf0b277a9960186</path>
+    <setnum>1</setnum>
+    <passkey>40,40,40,40,|40,40,40,40,|113,108,91,44,</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783b16b047013b16d665d70003</id>
+    <name>2012/11/19cs</name>
+    <intro>cs</intro>
+    <teachername>cs</teachername>
+    <classlength>12</classlength>
+    <isfree>1</isfree>
+    <time class="sql-timestamp">2012-11-19 11:29:52.0</time>
+    <path>/kj/2012/11/19/b3d953b89c1447d5b3555f4e875b209e</path>
+    <setnum>1</setnum>
+    <passkey></passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783af915c5013b0209a41a0080</id>
+    <name>测试长度测试长度测试长度测试嗖嗖嗖长度测试长度</name>
+    <intro>测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试&#xd;
+长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度&#xd;
+测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试&#xd;
+长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度测试长度&#xd;
+测试长度测试长度测试长度测试长度测试长度</intro>
+    <teachername>测试长度</teachername>
+    <classlength>1500000</classlength>
+    <isfree>1</isfree>
+    <time class="sql-timestamp">2012-11-15 11:05:54.0</time>
+    <path>/kj/2012/11/15/2f7caf94b1694b80bd8abe89d1fc038e</path>
+    <setnum>1</setnum>
+    <passkey></passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783af915c5013afd91ee6e0005</id>
+    <name>样例课件</name>
+    <intro>手机与平板都有资源的一个课件.</intro>
+    <teachername>小马哥</teachername>
+    <classlength>1500</classlength>
+    <isfree>1</isfree>
+    <time class="sql-timestamp">2012-11-14 14:01:09.0</time>
+    <path>/kj/2012/11/14/ee1c4105a90b4523b2d31d0d9868ef12</path>
+    <setnum>1</setnum>
+    <passkey>-8,-9,57,8,|40,40,40,64,</passkey>
+  </MwpmSysClass>
+  <MwpmSysClass>
+    <id>40288a783ac04e42013acf890dd80013</id>
+    <name>生化危机</name>
+    <intro>希望测试成功.</intro>
+    <teachername>杨龙</teachername>
+    <classlength>1500</classlength>
+    <isfree>0</isfree>
+    <time class="sql-timestamp">2012-11-05 15:41:38.0</time>
+    <path>/kj/2012/11/05/714524b6077c4fe0a945afef501de6ad</path>
+    <setnum>1</setnum>
+    <passkey>-8,-9,57,8,|110,116,126,41,</passkey>
+  </MwpmSysClass>
+</list>

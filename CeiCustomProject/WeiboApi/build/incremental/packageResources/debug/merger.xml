@@ -2,11 +2,11 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/home/yepeng/CeiCustomProject/WeiboApi/src/main/res" />
-        <source path="/home/yepeng/CeiCustomProject/WeiboApi/build/res/rs/debug" />
+        <source path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/src/main/res" />
+        <source path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/res/rs/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/yepeng/CeiCustomProject/WeiboApi/src/debug/res" />
+        <source path="/home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/src/debug/res" />
     </dataSet>
 
 </merger>
