@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /home/yepeng/.ssh/foshanlaw/foshanLawPad/src/com/hyrt/foshanLaw/remoteService/IStockQuoteService.aidl
+ * Original file: /home/yepeng/.ssh/hyrtproject/foshanlaw/foshanLawPad/src/com/hyrt/foshanLaw/remoteService/IStockQuoteService.aidl
  */
 package com.hyrt.foshanLaw.remoteService;
 public interface IStockQuoteService extends android.os.IInterface
