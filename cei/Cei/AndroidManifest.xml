@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest android:versionCode="14" android:versionName="14.0" package="com.hyrt.cei"
+<manifest android:versionCode="15" android:versionName="15.0" package="com.hyrt.cei"
   xmlns:android="http://schemas.android.com/apk/res/android">
   <uses-sdk android:minSdkVersion="8" />
     <application android:label="中经智库" android:icon="@drawable/icon_main" android:name=".application.CeiApplication" android:hardwareAccelerated="true">

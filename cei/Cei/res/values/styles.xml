@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="ContentOverlay" parent="@*android:style/Theme.Dialog">
+    <style name="ContentOverlay" parent="@android:style/Theme.Dialog">
         <item name="android:windowBackground">@color/full_transparent</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowAnimationStyle">@*android:style/Animation.Translucent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
     <style name="yangshi_1">
@@ -46,5 +46,5 @@
         <item name="android:textSize">24.0px</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
-    <style name="AppTheme" parent="@*android:style/Theme.Light" />
+    <style name="AppTheme" parent="@android:style/Theme.Light" />
 </resources>
