@@ -1504,18 +1504,12 @@ public class XmlUtil {
 					u = new Updata();
 				}
 				if (u != null) {
-					if (parser.getName().equals("aphoneversion")) {
+					if (parser.getName().equals("ydxxaphoneversion")) {
 						u.setAphoneversion(Integer.parseInt(parser.nextText()));
-					} else if (parser.getName().equals("aphonename")) {
+					} else if (parser.getName().equals("ydxxgkaphonename")) {
 						u.setAphonename(parser.nextText());
-					} else if (parser.getName().equals("aphoneurl")) {
+					} else if (parser.getName().equals("ydxxgkaphoneurl")) {
 						u.setAphoneurl(parser.nextText());
-					}else if (parser.getName().equals("apadversion")) {
-						u.setApadversion(Integer.parseInt(parser.nextText()));
-					} else if (parser.getName().equals("apadname")) {
-						u.setApadname(parser.nextText());
-					}else if (parser.getName().equals("apadurl")) {
-						u.setApadurl(parser.nextText());
 					}
 				}
 				break;

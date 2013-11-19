@@ -72,13 +72,13 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="WeiboApi" exported="" />
     <orderEntry type="library" exported="" name="support-v4-13.0.0" level="project" />
-    <orderEntry type="library" exported="" name="dom4j-1.6.1" level="project" />
-    <orderEntry type="library" exported="" name="native-libs" level="project" />
     <orderEntry type="module" module-name="Weibo" exported="" />
-    <orderEntry type="library" exported="" name="j4lChartAndroid" level="project" />
-    <orderEntry type="library" exported="" name="commons-httpclient-3.1" level="project" />
-    <orderEntry type="library" exported="" name="ksoap2-android-assembly-2.4-jar-with-dependencies (1)" level="project" />
-    <orderEntry type="library" exported="" name="ant" level="project" />
+    <orderEntry type="library" exported="" name="CeiCustomPhone-libs-dom4j-1.6.1.jar-dom4j-1.6.1" level="project" />
+    <orderEntry type="library" exported="" name="CeiCustomPhone-build-native-libs.jar-native-libs" level="project" />
+    <orderEntry type="library" exported="" name="CeiCustomPhone-libs-j4lChartAndroid.jar-j4lChartAndroid" level="project" />
+    <orderEntry type="library" exported="" name="CeiCustomPhone-libs-commons-httpclient-3.1.jar-commons-httpclient-3.1" level="project" />
+    <orderEntry type="library" exported="" name="CeiCustomPhone-libs-ksoap2-android-assembly-2.4-jar-with-dependencies (1).jar-ksoap2-android-assembly-2.4-jar-with-dependencies (1)" level="project" />
+    <orderEntry type="library" exported="" name="CeiCustomPhone-libs-ant.jar-ant" level="project" />
   </component>
 </module>
 
