@@ -51,6 +51,7 @@
 			android:background="@drawable/botton_middle" />
 	</RelativeLayout>
 	<LinearLayout
+        android:visibility="gone"
 		android:id="@+id/bottoms_Ll"
 		android:paddingBottom="10dip"
 		android:weightSum="4"

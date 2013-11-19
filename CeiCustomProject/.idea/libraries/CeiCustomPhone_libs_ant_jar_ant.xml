@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CeiCustomPhone-libs-ant.jar-ant">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CeiCustomPhone/libs/ant.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

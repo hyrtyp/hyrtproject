@@ -118,8 +118,6 @@ public class WebViewUtil extends Activity {
 			webSettings.setJavaScriptEnabled(true);
 			webSettings.setUseWideViewPort(true);
 			webSettings.setLoadWithOverviewMode(true);
-			//webSettings.setSupportZoom(true);
-			webSettings.setPluginsEnabled(true);
 			webSettings.setPluginState(PluginState.ON);
 			((TextView) findViewById(R.id.phone_study_playpage_Ll))
 					.setText("离线学习");
@@ -137,8 +135,6 @@ public class WebViewUtil extends Activity {
 			webSettings.setJavaScriptEnabled(true);
 			webSettings.setUseWideViewPort(true);
 			webSettings.setLoadWithOverviewMode(true);
-			//webSettings.setSupportZoom(true);
-			webSettings.setPluginsEnabled(true);
 			webSettings.setPluginState(PluginState.ON);
 			Preload preload = dataHelper.getPreload(classId);
 			path = "file:///"
@@ -158,8 +154,6 @@ public class WebViewUtil extends Activity {
 			webSettings.setJavaScriptEnabled(true);
 			webSettings.setUseWideViewPort(true);
 			webSettings.setLoadWithOverviewMode(true);
-			//webSettings.setSupportZoom(true);
-			webSettings.setPluginsEnabled(true);
 			webSettings.setPluginState(PluginState.ON);
 			((TextView) findViewById(R.id.phone_study_playpage_Ll))
 					.setText("在线学习");

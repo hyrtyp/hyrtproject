@@ -359,7 +359,7 @@ public class Welcome extends Activity {
 						message.arg2 = 100;
 						handler.sendMessage(message);
 
-						String returnCode = WriteOrRead.read(
+						/*String returnCode = WriteOrRead.read(
 								MyTools.nativeData, "ReportColumns.xml");
 						;
 
@@ -374,7 +374,7 @@ public class Welcome extends Activity {
 										.write(returnCode, MyTools.nativeData,
 												"ReportColumns.xml");
 							}
-						}
+						}*/
 					}
 					timeOutHelper.uninstallTimerTask(TimeOutHelper.ALDATA_FLAG);
 					Message message = handler.obtainMessage();

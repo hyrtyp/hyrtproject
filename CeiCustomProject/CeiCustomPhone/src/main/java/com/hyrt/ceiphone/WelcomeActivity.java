@@ -324,9 +324,9 @@ public class WelcomeActivity extends ContainerActivity {
 				message.arg1 = GO_MAIN;
 				// 获取版本号，调用接口得到报告的各个属性；
 				// 获取版本号；
-				String id = columnEntry.getColumnEntryChilds().get(0).getId();
-				String returnCode = Service.queryReportName(id);
-				try {
+				/*try {
+                    String id = columnEntry.getColumnEntryChilds().get(0).getId();
+                    String returnCode = Service.queryReportName(id);
 					if (returnCode != null) {
 						if (returnCode.equals("0")) {
 							((CeiApplication) getApplication()).ReportColumns.add(new ReportColumn());
@@ -338,7 +338,7 @@ public class WelcomeActivity extends ContainerActivity {
 
 				} catch (Exception e) {
 					e.printStackTrace();
-				}
+				}*/
 				handler.sendMessage(message);
 			}
 		};

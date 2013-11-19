@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.5.+'
+        classpath 'com.android.tools.build:gradle:0.6.+'
     }
 }
 apply plugin: 'android'
@@ -13,15 +13,33 @@ repositories {
 }
 
 android {
-    compileSdkVersion 17
-    buildToolsVersion "17.0.0"
+
+    compileSdkVersion 19
+    buildToolsVersion "19.0.0"
 
     defaultConfig {
-        minSdkVersion 7
-        targetSdkVersion 7
+        minSdkVersion 8
+        targetSdkVersion 8
+    }
+
+    signingConfigs {
+
+        myConfig {
+            storeFile file("/home/yepeng/.ssh/hyrt.store")
+            storePassword "hyrt.store"
+            keyAlias "hyrt.store"
+            keyPassword "hyrt.store"
+        }
+    }
+
+    buildTypes {
+        foo {
+            debuggable true
+            jniDebugBuild false
+            signingConfig signingConfigs.myConfig
+        }
     }
 }
-
 
 dependencies {
     compile fileTree(dir: "$buildDir/native-libs", include: 'native-libs.jar')

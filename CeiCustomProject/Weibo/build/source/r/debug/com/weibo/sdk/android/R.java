@@ -11,18 +11,11 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        /**  From: file:/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/res/values/color.xml 
-         */
         public static int dialog_title_blue=0x7f030000;
         public static int text_num_gray=0x7f030001;
         public static int transparent=0x7f030002;
     }
     public static final class dimen {
-        /**  From: file:/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/res/values/dimens.xml 
- From: file:/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/res/values-large/dimens.xml 
- From: file:/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/res/values-large-long/dimens.xml 
- From: file:/home/yepeng/.ssh/hyrtproject/CeiCustomProject/Weibo/src/main/res/values-normal-notlong/dimens.xml 
-         */
         public static int weibosdk_dialog_bottom_margin=0x7f040000;
         public static int weibosdk_dialog_left_margin=0x7f040001;
         public static int weibosdk_dialog_right_margin=0x7f040002;
