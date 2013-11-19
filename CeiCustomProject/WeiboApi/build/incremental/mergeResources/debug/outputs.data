@@ -1,8 +1,8 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1382583744000 477 818cfd7ba36f86aaf83c7ea866362dccaba65e08 /home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/res/all/debug/values-large-long/values.xml
-1382583744000 612 2ae7d0f68d7dc5157ee6d0c02fb52b65804076f4 /home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/res/all/debug/values/values.xml
-1382583744000 472 b937520c2f1d3df2e28b1adc04b11bb22e2cfaed /home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/res/all/debug/values-large/values.xml
-1382583744000 481 d49046a4a7e2855d858670c84754c4ab14abd0ea /home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/res/all/debug/values-normal-notlong/values.xml
-1382583744000 304 e2f500cfd21eb35d16837af2f08d402adc6ec8d8 /home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/res/all/debug/drawable/weibosdk_dialog_bg.9.png
+1384737334000 633 f2f67414895759cef349004ade21ca96edfb72f5 /home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/res/all/debug/values/values.xml
+1384737334000 498 1a202d0e6d490c42ba9d90758a63ed0524d11365 /home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/res/all/debug/values-large-long/values.xml
+1384737334000 493 d7388f94f0c27bf8c4b85b904d3bb9e1e5b583ec /home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/res/all/debug/values-large/values.xml
+1384737334000 502 46bb213c005fabc09122501415e026e18a013426 /home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/res/all/debug/values-normal-notlong/values.xml
+1384737334000 304 e2f500cfd21eb35d16837af2f08d402adc6ec8d8 /home/yepeng/.ssh/hyrtproject/CeiCustomProject/WeiboApi/build/res/all/debug/drawable/weibosdk_dialog_bg.9.png
