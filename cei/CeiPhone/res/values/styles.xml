@@ -38,5 +38,5 @@
         <item name="android:textSize">24.0px</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
-    <style name="AppTheme" parent="@*android:style/Theme.Light" />
+    <style name="AppTheme" parent="@android:style/Theme.Light" />
 </resources>
